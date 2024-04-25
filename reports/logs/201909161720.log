@@ -1,0 +1,39 @@
+2019-09-16 17:20:52,461 - framework.testreport - INFO - successed to generate test report [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\testReport\report2019-09-16 17_20_52.html]
+2019-09-16 17:20:54,906 - framework.driver - INFO - found the chrome driver [<selenium.webdriver.chrome.webdriver.WebDriver (session="8a6535e0f04bca1c39266225b82d9058")>] successed !
+2019-09-16 17:20:54,906 - framework.myunit - INFO - opened the browser successed!
+2019-09-16 17:20:57,163 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-09-16 17:20:57,240 - framework.base_page - INFO - 清除文本框内容成功username
+2019-09-16 17:20:57,353 - framework.base_page - INFO - 输入的内容：13777466979
+2019-09-16 17:20:57,419 - framework.base_page - INFO - 清除文本框内容成功password
+2019-09-16 17:20:57,524 - framework.base_page - INFO - 输入的内容：test123456
+2019-09-16 17:21:02,209 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-09-16 17:21:02,209 - framework.myunit - INFO - ************************starting run test cases************************
+2019-09-16 17:21:04,387 - framework.base_page - INFO - https://vaccine-staging.zcygov.cn/items/175600205?searchType=1&type=vaccine&utm=a0004.2ef5001f.0.0.33d8ffd0ca0411e9af8ed36431cbf75c 地址正常打开
+2019-09-16 17:21:06,491 - framework.base_page - INFO - 点击元素成功//*[contains(text(),"立即下单")]
+2019-09-16 17:21:15,535 - framework.base_page - INFO - 点击元素成功select2-selection__placeholder
+2019-09-16 17:21:15,611 - framework.base_page - INFO - 点击元素成功//li[text()="席胜军"]
+2019-09-16 17:21:15,723 - framework.base_page - INFO - 点击元素成功//button[text()="提交"]
+2019-09-16 17:21:16,123 - framework.base_page - INFO - 点击元素成功submit
+2019-09-16 17:21:17,614 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-16 17:21:18,760 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-16 17:21:18,915 - framework.base_page - INFO - 点击元素成功//button[text()="提交审核意见"]
+2019-09-16 17:21:18,999 - framework.base_page - INFO - 点击元素成功submit
+2019-09-16 17:21:20,253 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-16 17:21:21,629 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-16 17:21:21,838 - framework.base_page - INFO - 点击元素成功//button[text()="提交审核意见"]
+2019-09-16 17:21:21,913 - framework.base_page - INFO - 点击元素成功submit
+2019-09-16 17:21:23,104 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-16 17:21:24,410 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-16 17:21:24,630 - framework.base_page - INFO - 点击元素成功//button[text()="提交审核意见"]
+2019-09-16 17:21:24,714 - framework.base_page - INFO - 点击元素成功submit
+2019-09-16 17:21:25,891 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-16 17:21:27,237 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-16 17:21:27,490 - framework.base_page - INFO - 点击元素成功//button[text()="确定订单"]
+2019-09-16 17:21:29,506 - framework.base_page - INFO - 刷新页面
+2019-09-16 17:21:30,552 - framework.base_page - INFO - 点击元素成功div.order-form-list-body > table > tbody > tr:nth-child(1) > td:nth-child(8)> a.js-buy-again
+2019-09-16 17:21:31,998 - framework.base_page - INFO - 获取元素内容: 甲型肝炎灭活疫苗0508
+2019-09-16 17:21:32,100 - framework.base_page - INFO - 当前窗口的title是: 我的购物车
+2019-09-16 17:21:32,380 - framework.base_page - INFO - 截图 [test_33346_pass.png] 成功保存在 [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\screenshots\pass]
+2019-09-16 17:21:32,380 - test_33346 - INFO - 运行成功：再次购买跳转成功
+2019-09-16 17:21:32,395 - framework.myunit - INFO - ************************test case run completed************************
+2019-09-16 17:21:34,675 - framework.myunit - INFO - quit the browser success!

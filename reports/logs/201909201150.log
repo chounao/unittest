@@ -1,0 +1,31 @@
+2019-09-20 11:50:29,827 - framework.testreport - INFO - successed to generate test report [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\testReport\report2019-09-20 11_50_29.html]
+2019-09-20 11:50:34,663 - framework.driver - INFO - found the chrome driver [<selenium.webdriver.chrome.webdriver.WebDriver (session="345177ea2b2e369214ff69f7327d8315")>] successed !
+2019-09-20 11:50:35,769 - framework.myunit - INFO - opened the browser successed!
+2019-09-20 11:50:39,676 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-09-20 11:50:39,736 - framework.base_page - INFO - 清除文本框内容成功username
+2019-09-20 11:50:39,833 - framework.base_page - INFO - 输入的内容：13777466979
+2019-09-20 11:50:39,897 - framework.base_page - INFO - 清除文本框内容成功password
+2019-09-20 11:50:39,991 - framework.base_page - INFO - 输入的内容：test123456
+2019-09-20 11:50:43,887 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-09-20 11:50:43,887 - framework.myunit - INFO - ************************starting run test cases************************
+2019-09-20 11:50:51,093 - framework.base_page - INFO - https://vaccine-staging.zcygov.cn/?fcid=4244&normal=2&type=vaccine&utm=a0004.2ef5001f.0.0.bfa5af50ca0311e9ac3f4365eda56d93 地址正常打开
+2019-09-20 11:50:54,100 - framework.base_page - ERROR - 查找元素超时:q2
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\Zcy_Vaccine\framework\base_page.py", line 96, in find_element
+    EC.visibility_of(self.driver.find_element_by_name(value)))
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 496, in find_element_by_name
+    return self.find_element(by=By.NAME, value=name)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"name","selector":"q2"}
+  (Session info: headless chrome=77.0.3865.75)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64)
+
+2019-09-20 11:50:54,341 - framework.base_page - INFO - 截图 [test_33303_fail.png] 成功保存在 [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\screenshots\fail]
+2019-09-20 11:50:54,341 - test_33303 - INFO - 运行失败：甲型肝炎灭活疫苗0508搜索成功
+2019-09-20 11:50:54,358 - framework.myunit - INFO - ************************test case run completed************************
+2019-09-20 11:50:58,605 - framework.myunit - INFO - quit the browser success!

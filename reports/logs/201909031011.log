@@ -1,0 +1,33 @@
+2019-09-03 10:11:10,767 - framework.testreport - INFO - successed to generate test report [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\testReport\report2019-09-03 10_11_10.html]
+2019-09-03 10:11:13,802 - framework.driver - INFO - found the chrome driver [<selenium.webdriver.chrome.webdriver.WebDriver (session="6b0f08d4a09e2e5a7357cc6f19cf73e5")>] successed !
+2019-09-03 10:11:14,935 - test_33301_login - INFO - 启动浏览器成功
+2019-09-03 10:11:17,312 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-09-03 10:11:17,312 - test_33301_login - INFO - ************************starting run test cases************************
+2019-09-03 10:11:17,397 - framework.base_page - INFO - 清除文本框内容成功username
+2019-09-03 10:11:17,567 - framework.base_page - INFO - 输入的内容：13777466979
+2019-09-03 10:11:17,647 - framework.base_page - INFO - 清除文本框内容成功password
+2019-09-03 10:11:17,755 - framework.base_page - INFO - 输入的内容：test123456
+2019-09-03 10:11:22,505 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-09-03 10:11:22,512 - framework.base_page - INFO - 当前窗口的title是: 政采云，一站式政府采购云平台-引导页
+2019-09-03 10:11:23,096 - framework.base_page - INFO - 截图 [login_33301_pass.png] 成功保存在 [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\screenshots\pass]
+2019-09-03 10:11:23,096 - test_33301_login - INFO - 运行成功：用户名正确,密码正确,登录成功
+2019-09-03 10:11:30,336 - framework.base_page - INFO - 关闭浏览器
+2019-09-03 10:11:32,850 - framework.driver - INFO - found the chrome driver [<selenium.webdriver.chrome.webdriver.WebDriver (session="97de4c287471f55c4f401fc8be4af541")>] successed !
+2019-09-03 10:11:33,979 - framework.myunit - INFO - opened the browser successed!
+2019-09-03 10:11:36,065 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-09-03 10:11:36,146 - framework.base_page - INFO - 清除文本框内容成功username
+2019-09-03 10:11:36,281 - framework.base_page - INFO - 输入的内容：13777466979
+2019-09-03 10:11:36,346 - framework.base_page - INFO - 清除文本框内容成功password
+2019-09-03 10:11:36,454 - framework.base_page - INFO - 输入的内容：test123456
+2019-09-03 10:11:42,042 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-09-03 10:11:42,042 - framework.myunit - INFO - ************************starting run test cases************************
+2019-09-03 10:11:42,133 - framework.base_page - INFO - 点击元素成功user-toggle
+2019-09-03 10:11:43,963 - framework.base_page - INFO - 点击元素成功logout
+2019-09-03 10:11:43,969 - framework.base_page - INFO - 当前窗口的title是: 政采云，一站式政府采购云平台—登录相关
+2019-09-03 10:11:44,415 - framework.base_page - INFO - 截图 [logout_0116_pass.png] 成功保存在 [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\screenshots\pass]
+2019-09-03 10:11:44,415 - test_33311_logout - INFO - 运行成功：退出成功
+2019-09-03 10:11:44,437 - framework.myunit - INFO - ************************test case run completed************************
+2019-09-03 10:11:46,664 - framework.myunit - INFO - quit the browser success!
+2019-09-03 10:11:46,688 - framework.send_email - INFO - 添加附件
+2019-09-03 10:11:46,846 - framework.send_email - INFO - 连接成功
+2019-09-03 10:11:47,472 - framework.send_email - INFO - 2019-09-03-10_11_47----发送邮件成功

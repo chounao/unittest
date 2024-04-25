@@ -1,0 +1,58 @@
+2019-09-03 15:48:20,720 - framework.testreport - INFO - successed to generate test report [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\testReport\report2019-09-03 15_48_20.html]
+2019-09-03 15:48:23,299 - framework.driver - INFO - found the chrome driver [<selenium.webdriver.chrome.webdriver.WebDriver (session="53cac7941d1565539e6118aba202fecd")>] successed !
+2019-09-03 15:48:24,430 - framework.myunit - INFO - opened the browser successed!
+2019-09-03 15:48:27,084 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-09-03 15:48:27,148 - framework.base_page - INFO - 清除文本框内容成功username
+2019-09-03 15:48:27,291 - framework.base_page - INFO - 输入的内容：13777466979
+2019-09-03 15:48:27,356 - framework.base_page - INFO - 清除文本框内容成功password
+2019-09-03 15:48:27,452 - framework.base_page - INFO - 输入的内容：test123456
+2019-09-03 15:48:31,699 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-09-03 15:48:31,699 - framework.myunit - INFO - ************************starting run test cases************************
+2019-09-03 15:48:32,232 - framework.base_page - INFO - https://staging.zcygov.cn/buyer/vaccine-orders 地址正常打开
+2019-09-03 15:48:35,293 - framework.base_page - ERROR - 查找元素超时:header-right-user-avatar
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\Zcy_Vaccine\framework\base_page.py", line 94, in find_element
+    EC.visibility_of(self.driver.find_element_by_class_name(value)))
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 564, in find_element_by_class_name
+    return self.find_element(by=By.CLASS_NAME, value=name)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"class name","selector":"header-right-user-avatar"}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+2019-09-03 15:48:36,395 - framework.myunit - INFO - ************************test case run completed************************
+2019-09-03 15:48:37,164 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-09-03 15:48:37,224 - framework.base_page - INFO - 清除文本框内容成功username
+2019-09-03 15:48:37,339 - framework.base_page - INFO - 输入的内容：13777466979
+2019-09-03 15:48:37,391 - framework.base_page - INFO - 清除文本框内容成功password
+2019-09-03 15:48:37,484 - framework.base_page - INFO - 输入的内容：test123456
+2019-09-03 15:48:39,076 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-09-03 15:48:39,076 - framework.myunit - INFO - ************************starting run test cases************************
+2019-09-03 15:48:39,883 - framework.base_page - INFO - https://staging.zcygov.cn/buyer/vaccine-orders 地址正常打开
+2019-09-03 15:48:39,954 - framework.base_page - INFO - 点击元素成功header-right-user-avatar
+2019-09-03 15:48:41,189 - framework.base_page - INFO - 点击元素成功logout
+2019-09-03 15:48:46,251 - framework.base_page - INFO - 清除文本框内容成功username
+2019-09-03 15:48:46,343 - framework.base_page - INFO - 输入的内容：SINOVAC
+2019-09-03 15:48:46,395 - framework.base_page - INFO - 清除文本框内容成功password
+2019-09-03 15:48:46,486 - framework.base_page - INFO - 输入的内容：test123456
+2019-09-03 15:48:48,222 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-09-03 15:48:55,040 - framework.base_page - INFO - https://staging.zcygov.cn/seller/vaccine-orders 地址正常打开
+2019-09-03 15:48:58,372 - framework.base_page - INFO - 点击元素成功div.order-form-list-body > table > tbody > tr:nth-child(1)  > td:nth-child(7) > a:nth-child(3)
+2019-09-03 15:48:58,474 - framework.base_page - INFO - 点击元素成功selectric-js-all-select-warehouse
+2019-09-03 15:48:58,574 - framework.base_page - INFO - 点击元素成功//li[contains(text(),"默认仓库")]
+2019-09-03 15:48:58,637 - framework.base_page - INFO - 清除文本框内容成功js-shipmentNo
+2019-09-03 15:48:58,747 - framework.base_page - INFO - 输入的内容：12222221
+2019-09-03 15:48:58,852 - framework.base_page - INFO - 点击元素成功//*[@type="checkbox"]
+2019-09-03 15:48:58,928 - framework.base_page - INFO - 点击元素成功//*[contains(text(),"添加批号")]
+2019-09-03 15:48:59,426 - framework.base_page - INFO - 点击元素成功select2-selection__rendered
+2019-09-03 15:48:59,491 - framework.base_page - INFO - 点击元素成功ul.select2-results__options > li:nth-child(2)
+2019-09-03 15:48:59,563 - framework.base_page - INFO - 清除文本框内容成功goodsCount
+2019-09-03 15:48:59,611 - framework.base_page - INFO - 输入的内容：1
+2019-09-03 15:48:59,679 - framework.base_page - INFO - 点击元素成功//button[text()="确定"]
+2019-09-03 15:48:59,755 - framework.myunit - INFO - ************************test case run completed************************
+2019-09-03 15:49:03,460 - framework.myunit - INFO - quit the browser success!

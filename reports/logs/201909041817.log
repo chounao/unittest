@@ -1,0 +1,862 @@
+2019-09-04 18:17:31,433 - framework.testreport - INFO - successed to generate test report [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\testReport\report2019-09-04 18_17_31.html]
+2019-09-04 18:17:34,500 - framework.driver - INFO - found the chrome driver [<selenium.webdriver.chrome.webdriver.WebDriver (session="cde5caba5ca027a2b9d15f81f28aef7c")>] successed !
+2019-09-04 18:17:35,631 - test_01_login.test_33301_login - INFO - 启动浏览器成功
+2019-09-04 18:17:38,178 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-09-04 18:17:38,178 - test_01_login.test_33301_login - INFO - ************************starting run test cases************************
+2019-09-04 18:17:38,246 - framework.base_page - INFO - 清除文本框内容成功username
+2019-09-04 18:17:38,364 - framework.base_page - INFO - 输入的内容：13777466979
+2019-09-04 18:17:38,435 - framework.base_page - INFO - 清除文本框内容成功password
+2019-09-04 18:17:38,524 - framework.base_page - INFO - 输入的内容：test123456
+2019-09-04 18:17:44,547 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-09-04 18:17:44,552 - framework.base_page - INFO - 当前窗口的title是: 政采云，一站式政府采购云平台-引导页
+2019-09-04 18:17:45,036 - framework.base_page - INFO - 截图 [login_33301_pass.png] 成功保存在 [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\screenshots\pass]
+2019-09-04 18:17:45,036 - test_01_login.test_33301_login - INFO - 运行成功：用户名正确,密码正确,登录成功
+2019-09-04 18:17:52,253 - framework.base_page - INFO - 关闭浏览器
+2019-09-04 18:17:54,677 - framework.driver - INFO - found the chrome driver [<selenium.webdriver.chrome.webdriver.WebDriver (session="e431678717859a7df3e0a52af7c88117")>] successed !
+2019-09-04 18:17:55,806 - framework.myunit - INFO - opened the browser successed!
+2019-09-04 18:18:04,900 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-09-04 18:18:04,967 - framework.base_page - INFO - 清除文本框内容成功username
+2019-09-04 18:18:05,088 - framework.base_page - INFO - 输入的内容：13777466979
+2019-09-04 18:18:05,148 - framework.base_page - INFO - 清除文本框内容成功password
+2019-09-04 18:18:05,252 - framework.base_page - INFO - 输入的内容：test123456
+2019-09-04 18:18:09,227 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-09-04 18:18:09,227 - framework.myunit - INFO - ************************starting run test cases************************
+2019-09-04 18:18:09,300 - framework.base_page - INFO - 点击元素成功user-toggle
+2019-09-04 18:18:10,580 - framework.base_page - INFO - 点击元素成功logout
+2019-09-04 18:18:10,585 - framework.base_page - INFO - 当前窗口的title是: 政采云，一站式政府采购云平台—登录相关
+2019-09-04 18:18:10,913 - framework.base_page - INFO - 截图 [logout_0116_pass.png] 成功保存在 [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\screenshots\pass]
+2019-09-04 18:18:10,913 - test_01_login.test_33311_logout - INFO - 运行成功：退出成功
+2019-09-04 18:18:10,925 - framework.myunit - INFO - ************************test case run completed************************
+2019-09-04 18:18:13,164 - framework.myunit - INFO - quit the browser success!
+2019-09-04 18:18:15,622 - framework.driver - INFO - found the chrome driver [<selenium.webdriver.chrome.webdriver.WebDriver (session="410c825100eda1e4de021b7a59649e8f")>] successed !
+2019-09-04 18:18:16,751 - framework.myunit - INFO - opened the browser successed!
+2019-09-04 18:18:20,310 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-09-04 18:18:20,379 - framework.base_page - INFO - 清除文本框内容成功username
+2019-09-04 18:18:20,491 - framework.base_page - INFO - 输入的内容：13777466979
+2019-09-04 18:18:20,554 - framework.base_page - INFO - 清除文本框内容成功password
+2019-09-04 18:18:20,659 - framework.base_page - INFO - 输入的内容：test123456
+2019-09-04 18:18:24,975 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-09-04 18:18:24,975 - framework.myunit - INFO - ************************starting run test cases************************
+2019-09-04 18:18:43,247 - framework.base_page - INFO - 点击元素成功icon-maichang
+2019-09-04 18:18:43,252 - framework.base_page - INFO - 当前窗口的title是: 二类疫苗
+2019-09-04 18:18:43,549 - framework.base_page - INFO - 截图 [test_33302_pass.png] 成功保存在 [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\screenshots\pass]
+2019-09-04 18:18:43,549 - test_02_order.test_33302 - INFO - 运行成功：进入疫苗馆
+2019-09-04 18:18:43,566 - framework.myunit - INFO - ************************test case run completed************************
+2019-09-04 18:18:45,824 - framework.myunit - INFO - quit the browser success!
+2019-09-04 18:18:48,267 - framework.driver - INFO - found the chrome driver [<selenium.webdriver.chrome.webdriver.WebDriver (session="1953b1c52c04e0caae536160773cfa8b")>] successed !
+2019-09-04 18:18:49,397 - framework.myunit - INFO - opened the browser successed!
+2019-09-04 18:18:51,765 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-09-04 18:18:51,828 - framework.base_page - INFO - 清除文本框内容成功username
+2019-09-04 18:18:51,937 - framework.base_page - INFO - 输入的内容：13777466979
+2019-09-04 18:18:51,999 - framework.base_page - INFO - 清除文本框内容成功password
+2019-09-04 18:18:52,092 - framework.base_page - INFO - 输入的内容：test123456
+2019-09-04 18:18:56,414 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-09-04 18:18:56,414 - framework.myunit - INFO - ************************starting run test cases************************
+2019-09-04 18:19:05,566 - framework.base_page - INFO - https://vaccine-staging.zcygov.cn/?fcid=4244&normal=2&type=vaccine&utm=a0004.2ef5001f.0.0.bfa5af50ca0311e9ac3f4365eda56d93 地址正常打开
+2019-09-04 18:19:05,656 - framework.base_page - INFO - 清除文本框内容成功q
+2019-09-04 18:19:05,756 - framework.base_page - INFO - 输入的内容：甲型肝炎灭活疫苗0508
+2019-09-04 18:19:07,226 - framework.base_page - INFO - 点击元素成功search-button
+2019-09-04 18:19:10,704 - framework.base_page - INFO - 截图 [test_33303_pass.png] 成功保存在 [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\screenshots\pass]
+2019-09-04 18:19:10,704 - test_02_order.test_33303 - INFO - 甲型肝炎灭活疫苗0508搜索成功
+2019-09-04 18:19:10,721 - framework.myunit - INFO - ************************test case run completed************************
+2019-09-04 18:19:12,976 - framework.myunit - INFO - quit the browser success!
+2019-09-04 18:19:15,405 - framework.driver - INFO - found the chrome driver [<selenium.webdriver.chrome.webdriver.WebDriver (session="e6bf93fbbe6c19cf15696b40f6cbad8a")>] successed !
+2019-09-04 18:19:16,532 - framework.myunit - INFO - opened the browser successed!
+2019-09-04 18:19:22,611 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-09-04 18:19:22,677 - framework.base_page - INFO - 清除文本框内容成功username
+2019-09-04 18:19:22,791 - framework.base_page - INFO - 输入的内容：13777466979
+2019-09-04 18:19:22,859 - framework.base_page - INFO - 清除文本框内容成功password
+2019-09-04 18:19:22,955 - framework.base_page - INFO - 输入的内容：test123456
+2019-09-04 18:19:26,657 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-09-04 18:19:26,657 - framework.myunit - INFO - ************************starting run test cases************************
+2019-09-04 18:19:27,772 - framework.base_page - INFO - https://cart-staging.zcygov.cn/ 地址正常打开
+2019-09-04 18:19:33,833 - pageobjects.order_page - ERROR - 未找到全选按钮
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\Zcy_Vaccine\pageobjects\order_page.py", line 35, in clearcart
+    self.driver.find_element_by_xpath('//input[@class="ant-checkbox-input"]').click()
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@class="ant-checkbox-input"]"}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+2019-09-04 18:19:34,652 - framework.base_page - INFO - https://vaccine-staging.zcygov.cn/items/175600205?searchType=1&type=vaccine&utm=a0004.2ef5001f.0.0.33d8ffd0ca0411e9af8ed36431cbf75c 地址正常打开
+2019-09-04 18:19:39,757 - framework.base_page - INFO - 点击元素成功//*[contains(text(),"加入购物车")]
+2019-09-04 18:19:41,106 - framework.base_page - INFO - 点击元素成功//*[contains(text(),"查看购物车")]
+2019-09-04 18:19:46,405 - framework.base_page - INFO - 截图 [test_33304_pass.png] 成功保存在 [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\screenshots\pass]
+2019-09-04 18:19:46,405 - test_02_order.test_33304 - INFO - 加入购物车成功
+2019-09-04 18:19:46,418 - framework.myunit - INFO - ************************test case run completed************************
+2019-09-04 18:19:48,658 - framework.myunit - INFO - quit the browser success!
+2019-09-04 18:19:51,106 - framework.driver - INFO - found the chrome driver [<selenium.webdriver.chrome.webdriver.WebDriver (session="89768c55a89123e459cdb978c00a3a1c")>] successed !
+2019-09-04 18:19:52,260 - framework.myunit - INFO - opened the browser successed!
+2019-09-04 18:19:54,196 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-09-04 18:19:54,265 - framework.base_page - INFO - 清除文本框内容成功username
+2019-09-04 18:19:54,406 - framework.base_page - INFO - 输入的内容：13777466979
+2019-09-04 18:19:54,474 - framework.base_page - INFO - 清除文本框内容成功password
+2019-09-04 18:19:54,580 - framework.base_page - INFO - 输入的内容：test123456
+2019-09-04 18:19:58,521 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-09-04 18:19:58,521 - framework.myunit - INFO - ************************starting run test cases************************
+2019-09-04 18:19:59,285 - framework.base_page - INFO - https://cart-staging.zcygov.cn/ 地址正常打开
+2019-09-04 18:20:02,460 - framework.base_page - INFO - 点击元素成功//div[@class="float-bar-action-del"]/a[text()="删除"]
+2019-09-04 18:20:05,528 - pageobjects.order_page - INFO - 删除商品成功
+2019-09-04 18:20:06,136 - framework.base_page - INFO - https://vaccine-staging.zcygov.cn/items/175600205?searchType=1&type=vaccine&utm=a0004.2ef5001f.0.0.33d8ffd0ca0411e9af8ed36431cbf75c 地址正常打开
+2019-09-04 18:20:09,239 - framework.base_page - INFO - 点击元素成功//*[contains(text(),"加入购物车")]
+2019-09-04 18:20:10,032 - framework.base_page - INFO - 点击元素成功//*[contains(text(),"查看购物车")]
+2019-09-04 18:20:27,755 - framework.base_page - INFO - 获取当前url https://staging.zcygov.cn/buyer/purchase-process?purchaseId=1129000000000180771
+2019-09-04 18:20:27,760 - test_02_order.test_33305 - INFO - https://staging.zcygov.cn/buyer/purchase-process?purchaseId=1129000000000180771
+2019-09-04 18:20:28,079 - framework.base_page - INFO - 截图 [test_33305_pass.png] 成功保存在 [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\screenshots\pass]
+2019-09-04 18:20:28,079 - test_02_order.test_33305 - INFO - 生成预购单成功
+2019-09-04 18:20:28,100 - framework.myunit - INFO - ************************test case run completed************************
+2019-09-04 18:20:30,343 - framework.myunit - INFO - quit the browser success!
+2019-09-04 18:20:32,819 - framework.driver - INFO - found the chrome driver [<selenium.webdriver.chrome.webdriver.WebDriver (session="0785f0c550b8fc97c0527f4ea0240ff7")>] successed !
+2019-09-04 18:20:33,945 - framework.myunit - INFO - opened the browser successed!
+2019-09-04 18:20:36,331 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-09-04 18:20:36,386 - framework.base_page - INFO - 清除文本框内容成功username
+2019-09-04 18:20:36,488 - framework.base_page - INFO - 输入的内容：13777466979
+2019-09-04 18:20:36,547 - framework.base_page - INFO - 清除文本框内容成功password
+2019-09-04 18:20:36,673 - framework.base_page - INFO - 输入的内容：test123456
+2019-09-04 18:20:40,584 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-09-04 18:20:40,584 - framework.myunit - INFO - ************************starting run test cases************************
+2019-09-04 18:20:41,539 - framework.base_page - INFO - https://cart-staging.zcygov.cn/ 地址正常打开
+2019-09-04 18:20:47,583 - pageobjects.order_page - ERROR - 未找到全选按钮
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\Zcy_Vaccine\pageobjects\order_page.py", line 35, in clearcart
+    self.driver.find_element_by_xpath('//input[@class="ant-checkbox-input"]').click()
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@class="ant-checkbox-input"]"}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+2019-09-04 18:20:48,243 - framework.base_page - INFO - https://vaccine-staging.zcygov.cn/items/175600205?searchType=1&type=vaccine&utm=a0004.2ef5001f.0.0.33d8ffd0ca0411e9af8ed36431cbf75c 地址正常打开
+2019-09-04 18:20:50,816 - framework.base_page - INFO - 点击元素成功//*[contains(text(),"加入购物车")]
+2019-09-04 18:20:51,723 - framework.base_page - INFO - 点击元素成功//*[contains(text(),"查看购物车")]
+2019-09-04 18:21:09,091 - framework.base_page - INFO - 点击元素成功select2-selection__placeholder
+2019-09-04 18:21:09,171 - framework.base_page - INFO - 点击元素成功//li[text()="席胜军"]
+2019-09-04 18:21:09,279 - framework.base_page - INFO - 点击元素成功//button[text()="提交"]
+2019-09-04 18:21:09,700 - framework.base_page - INFO - 点击元素成功submit
+2019-09-04 18:21:11,623 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-04 18:21:11,704 - framework.base_page - INFO - 获取元素内容: 部门审核
+2019-09-04 18:21:11,991 - framework.base_page - INFO - 截图 [test_33306_pass.png] 成功保存在 [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\screenshots\pass]
+2019-09-04 18:21:11,992 - test_02_order.test_33306 - INFO - 运行成功：预购单提交成功
+2019-09-04 18:21:12,007 - framework.myunit - INFO - ************************test case run completed************************
+2019-09-04 18:21:14,243 - framework.myunit - INFO - quit the browser success!
+2019-09-04 18:21:16,497 - framework.driver - INFO - found the chrome driver [<selenium.webdriver.chrome.webdriver.WebDriver (session="cbb8f90096249ea547d59b6ed1b11d47")>] successed !
+2019-09-04 18:21:17,628 - framework.myunit - INFO - opened the browser successed!
+2019-09-04 18:21:19,620 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-09-04 18:21:19,730 - framework.base_page - INFO - 清除文本框内容成功username
+2019-09-04 18:21:19,896 - framework.base_page - INFO - 输入的内容：13777466979
+2019-09-04 18:21:19,950 - framework.base_page - INFO - 清除文本框内容成功password
+2019-09-04 18:21:20,042 - framework.base_page - INFO - 输入的内容：test123456
+2019-09-04 18:21:24,104 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-09-04 18:21:24,104 - framework.myunit - INFO - ************************starting run test cases************************
+2019-09-04 18:21:25,056 - framework.base_page - INFO - https://cart-staging.zcygov.cn/ 地址正常打开
+2019-09-04 18:21:31,103 - pageobjects.order_page - ERROR - 未找到全选按钮
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\Zcy_Vaccine\pageobjects\order_page.py", line 35, in clearcart
+    self.driver.find_element_by_xpath('//input[@class="ant-checkbox-input"]').click()
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@class="ant-checkbox-input"]"}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+2019-09-04 18:21:32,064 - framework.base_page - INFO - https://vaccine-staging.zcygov.cn/items/175600205?searchType=1&type=vaccine&utm=a0004.2ef5001f.0.0.33d8ffd0ca0411e9af8ed36431cbf75c 地址正常打开
+2019-09-04 18:21:33,183 - framework.base_page - INFO - 点击元素成功//*[contains(text(),"加入购物车")]
+2019-09-04 18:21:43,718 - framework.base_page - ERROR - 查找元素超时://*[contains(text(),"查看购物车")]
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\Zcy_Vaccine\framework\base_page.py", line 109, in find_element
+    EC.visibility_of(self.driver.find_element_by_xpath(value)))
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-09-04 18:21:43,759 - framework.myunit - INFO - ************************test case run completed************************
+2019-09-04 18:21:45,116 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-09-04 18:21:45,187 - framework.base_page - INFO - 清除文本框内容成功username
+2019-09-04 18:21:45,292 - framework.base_page - INFO - 输入的内容：13777466979
+2019-09-04 18:21:45,356 - framework.base_page - INFO - 清除文本框内容成功password
+2019-09-04 18:21:45,454 - framework.base_page - INFO - 输入的内容：test123456
+2019-09-04 18:21:46,968 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-09-04 18:21:46,968 - framework.myunit - INFO - ************************starting run test cases************************
+2019-09-04 18:21:47,471 - framework.base_page - INFO - https://cart-staging.zcygov.cn/ 地址正常打开
+2019-09-04 18:21:53,491 - pageobjects.order_page - ERROR - 未找到全选按钮
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\Zcy_Vaccine\pageobjects\order_page.py", line 35, in clearcart
+    self.driver.find_element_by_xpath('//input[@class="ant-checkbox-input"]').click()
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@class="ant-checkbox-input"]"}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+2019-09-04 18:21:53,847 - framework.base_page - INFO - https://vaccine-staging.zcygov.cn/items/175600205?searchType=1&type=vaccine&utm=a0004.2ef5001f.0.0.33d8ffd0ca0411e9af8ed36431cbf75c 地址正常打开
+2019-09-04 18:21:54,366 - framework.base_page - INFO - 点击元素成功//*[contains(text(),"加入购物车")]
+2019-09-04 18:21:55,208 - framework.base_page - INFO - 点击元素成功//*[contains(text(),"查看购物车")]
+2019-09-04 18:22:11,877 - framework.base_page - INFO - 点击元素成功select2-selection__placeholder
+2019-09-04 18:22:11,950 - framework.base_page - INFO - 点击元素成功//li[text()="席胜军"]
+2019-09-04 18:22:12,053 - framework.base_page - INFO - 点击元素成功//button[text()="提交"]
+2019-09-04 18:22:12,494 - framework.base_page - INFO - 点击元素成功submit
+2019-09-04 18:22:14,470 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-04 18:22:15,950 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-04 18:22:16,089 - framework.base_page - INFO - 点击元素成功//button[text()="提交审核意见"]
+2019-09-04 18:22:16,169 - framework.base_page - INFO - 点击元素成功submit
+2019-09-04 18:22:17,524 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-04 18:22:17,579 - framework.base_page - INFO - 获取元素内容: 财务审核
+2019-09-04 18:22:17,878 - framework.base_page - INFO - 截图 [test_33307_pass.png] 成功保存在 [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\screenshots\pass]
+2019-09-04 18:22:17,878 - test_02_order.test_33307 - INFO - 运行成功：部门审核成功
+2019-09-04 18:22:17,892 - framework.myunit - INFO - ************************test case run completed************************
+2019-09-04 18:22:20,112 - framework.myunit - INFO - quit the browser success!
+2019-09-04 18:22:22,544 - framework.driver - INFO - found the chrome driver [<selenium.webdriver.chrome.webdriver.WebDriver (session="35aeb2f811ef36767dd2ffa14214a0a2")>] successed !
+2019-09-04 18:22:23,683 - framework.myunit - INFO - opened the browser successed!
+2019-09-04 18:22:26,080 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-09-04 18:22:26,146 - framework.base_page - INFO - 清除文本框内容成功username
+2019-09-04 18:22:26,282 - framework.base_page - INFO - 输入的内容：13777466979
+2019-09-04 18:22:26,342 - framework.base_page - INFO - 清除文本框内容成功password
+2019-09-04 18:22:26,440 - framework.base_page - INFO - 输入的内容：test123456
+2019-09-04 18:22:30,279 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-09-04 18:22:30,279 - framework.myunit - INFO - ************************starting run test cases************************
+2019-09-04 18:22:31,349 - framework.base_page - INFO - https://cart-staging.zcygov.cn/ 地址正常打开
+2019-09-04 18:22:37,378 - pageobjects.order_page - ERROR - 未找到全选按钮
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\Zcy_Vaccine\pageobjects\order_page.py", line 35, in clearcart
+    self.driver.find_element_by_xpath('//input[@class="ant-checkbox-input"]').click()
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@class="ant-checkbox-input"]"}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+2019-09-04 18:22:38,782 - framework.base_page - INFO - https://vaccine-staging.zcygov.cn/items/175600205?searchType=1&type=vaccine&utm=a0004.2ef5001f.0.0.33d8ffd0ca0411e9af8ed36431cbf75c 地址正常打开
+2019-09-04 18:22:38,882 - framework.base_page - INFO - 点击元素成功//*[contains(text(),"加入购物车")]
+2019-09-04 18:22:39,676 - framework.base_page - INFO - 点击元素成功//*[contains(text(),"查看购物车")]
+2019-09-04 18:22:56,544 - framework.base_page - INFO - 点击元素成功select2-selection__placeholder
+2019-09-04 18:22:56,623 - framework.base_page - INFO - 点击元素成功//li[text()="席胜军"]
+2019-09-04 18:22:56,729 - framework.base_page - INFO - 点击元素成功//button[text()="提交"]
+2019-09-04 18:22:57,179 - framework.base_page - INFO - 点击元素成功submit
+2019-09-04 18:22:59,023 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-04 18:23:00,410 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-04 18:23:00,567 - framework.base_page - INFO - 点击元素成功//button[text()="提交审核意见"]
+2019-09-04 18:23:00,646 - framework.base_page - INFO - 点击元素成功submit
+2019-09-04 18:23:01,925 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-04 18:23:03,241 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-04 18:23:03,356 - framework.base_page - INFO - 点击元素成功//button[text()="提交审核意见"]
+2019-09-04 18:23:03,425 - framework.base_page - INFO - 点击元素成功submit
+2019-09-04 18:23:04,894 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-04 18:23:04,938 - framework.base_page - INFO - 获取元素内容: 单位审核
+2019-09-04 18:23:05,233 - framework.base_page - INFO - 截图 [test_33308_pass.png] 成功保存在 [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\screenshots\pass]
+2019-09-04 18:23:05,233 - test_02_order.test_33308 - INFO - 运行成功：财务审核成功
+2019-09-04 18:23:05,246 - framework.myunit - INFO - ************************test case run completed************************
+2019-09-04 18:23:07,505 - framework.myunit - INFO - quit the browser success!
+2019-09-04 18:23:09,991 - framework.driver - INFO - found the chrome driver [<selenium.webdriver.chrome.webdriver.WebDriver (session="8ab83d1b510466f8b022101cf4459df3")>] successed !
+2019-09-04 18:23:11,127 - framework.myunit - INFO - opened the browser successed!
+2019-09-04 18:23:13,093 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-09-04 18:23:13,150 - framework.base_page - INFO - 清除文本框内容成功username
+2019-09-04 18:23:13,262 - framework.base_page - INFO - 输入的内容：13777466979
+2019-09-04 18:23:13,334 - framework.base_page - INFO - 清除文本框内容成功password
+2019-09-04 18:23:13,424 - framework.base_page - INFO - 输入的内容：test123456
+2019-09-04 18:23:17,285 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-09-04 18:23:17,285 - framework.myunit - INFO - ************************starting run test cases************************
+2019-09-04 18:23:18,149 - framework.base_page - INFO - https://cart-staging.zcygov.cn/ 地址正常打开
+2019-09-04 18:23:24,199 - pageobjects.order_page - ERROR - 未找到全选按钮
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\Zcy_Vaccine\pageobjects\order_page.py", line 35, in clearcart
+    self.driver.find_element_by_xpath('//input[@class="ant-checkbox-input"]').click()
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@class="ant-checkbox-input"]"}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+2019-09-04 18:23:24,888 - framework.base_page - INFO - https://vaccine-staging.zcygov.cn/items/175600205?searchType=1&type=vaccine&utm=a0004.2ef5001f.0.0.33d8ffd0ca0411e9af8ed36431cbf75c 地址正常打开
+2019-09-04 18:23:25,517 - framework.base_page - INFO - 点击元素成功//*[contains(text(),"加入购物车")]
+2019-09-04 18:23:26,876 - framework.base_page - INFO - 点击元素成功//*[contains(text(),"查看购物车")]
+2019-09-04 18:23:43,741 - framework.base_page - INFO - 点击元素成功select2-selection__placeholder
+2019-09-04 18:23:43,814 - framework.base_page - INFO - 点击元素成功//li[text()="席胜军"]
+2019-09-04 18:23:43,912 - framework.base_page - INFO - 点击元素成功//button[text()="提交"]
+2019-09-04 18:23:44,347 - framework.base_page - INFO - 点击元素成功submit
+2019-09-04 18:23:45,889 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-04 18:23:47,256 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-04 18:23:47,408 - framework.base_page - INFO - 点击元素成功//button[text()="提交审核意见"]
+2019-09-04 18:23:47,482 - framework.base_page - INFO - 点击元素成功submit
+2019-09-04 18:23:48,768 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-04 18:23:49,970 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-04 18:23:50,087 - framework.base_page - INFO - 点击元素成功//button[text()="提交审核意见"]
+2019-09-04 18:23:50,158 - framework.base_page - INFO - 点击元素成功submit
+2019-09-04 18:23:51,434 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-04 18:23:53,159 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-04 18:23:53,283 - framework.base_page - INFO - 点击元素成功//button[text()="提交审核意见"]
+2019-09-04 18:23:53,359 - framework.base_page - INFO - 点击元素成功submit
+2019-09-04 18:23:54,824 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-04 18:23:54,864 - framework.base_page - INFO - 获取元素内容: 确定订单
+2019-09-04 18:23:55,162 - framework.base_page - INFO - 截图 [test_33309_pass.png] 成功保存在 [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\screenshots\pass]
+2019-09-04 18:23:55,163 - test_02_order.test_33309 - INFO - 运行成功：单位审核成功
+2019-09-04 18:23:55,177 - framework.myunit - INFO - ************************test case run completed************************
+2019-09-04 18:23:57,381 - framework.myunit - INFO - quit the browser success!
+2019-09-04 18:23:59,641 - framework.driver - INFO - found the chrome driver [<selenium.webdriver.chrome.webdriver.WebDriver (session="433c0976f2e9ed39f2f64f4ac3c199cd")>] successed !
+2019-09-04 18:24:00,767 - framework.myunit - INFO - opened the browser successed!
+2019-09-04 18:24:03,141 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-09-04 18:24:03,201 - framework.base_page - INFO - 清除文本框内容成功username
+2019-09-04 18:24:03,302 - framework.base_page - INFO - 输入的内容：13777466979
+2019-09-04 18:24:03,358 - framework.base_page - INFO - 清除文本框内容成功password
+2019-09-04 18:24:03,456 - framework.base_page - INFO - 输入的内容：test123456
+2019-09-04 18:24:07,506 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-09-04 18:24:07,506 - framework.myunit - INFO - ************************starting run test cases************************
+2019-09-04 18:24:08,419 - framework.base_page - INFO - https://cart-staging.zcygov.cn/ 地址正常打开
+2019-09-04 18:24:14,438 - pageobjects.order_page - ERROR - 未找到全选按钮
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\Zcy_Vaccine\pageobjects\order_page.py", line 35, in clearcart
+    self.driver.find_element_by_xpath('//input[@class="ant-checkbox-input"]').click()
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@class="ant-checkbox-input"]"}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+2019-09-04 18:24:15,266 - framework.base_page - INFO - https://vaccine-staging.zcygov.cn/items/175600205?searchType=1&type=vaccine&utm=a0004.2ef5001f.0.0.33d8ffd0ca0411e9af8ed36431cbf75c 地址正常打开
+2019-09-04 18:24:15,835 - framework.base_page - INFO - 点击元素成功//*[contains(text(),"加入购物车")]
+2019-09-04 18:24:16,672 - framework.base_page - INFO - 点击元素成功//*[contains(text(),"查看购物车")]
+2019-09-04 18:24:33,655 - framework.base_page - INFO - 点击元素成功select2-selection__placeholder
+2019-09-04 18:24:33,730 - framework.base_page - INFO - 点击元素成功//li[text()="席胜军"]
+2019-09-04 18:24:33,850 - framework.base_page - INFO - 点击元素成功//button[text()="提交"]
+2019-09-04 18:24:34,538 - framework.base_page - INFO - 点击元素成功submit
+2019-09-04 18:24:36,364 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-04 18:24:39,704 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-04 18:24:39,819 - framework.base_page - INFO - 点击元素成功//button[text()="提交审核意见"]
+2019-09-04 18:24:39,901 - framework.base_page - INFO - 点击元素成功submit
+2019-09-04 18:24:41,133 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-04 18:24:42,350 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-04 18:24:42,457 - framework.base_page - INFO - 点击元素成功//button[text()="提交审核意见"]
+2019-09-04 18:24:42,527 - framework.base_page - INFO - 点击元素成功submit
+2019-09-04 18:24:43,820 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-04 18:24:45,332 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-04 18:24:45,447 - framework.base_page - INFO - 点击元素成功//button[text()="提交审核意见"]
+2019-09-04 18:24:45,518 - framework.base_page - INFO - 点击元素成功submit
+2019-09-04 18:24:46,783 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-04 18:24:47,873 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-04 18:24:47,984 - framework.base_page - INFO - 点击元素成功//button[text()="确定订单"]
+2019-09-04 18:24:49,997 - framework.base_page - INFO - 刷新页面
+2019-09-04 18:24:51,123 - framework.base_page - INFO - 获取元素内容: 待供应商接单
+2019-09-04 18:24:51,463 - framework.base_page - INFO - 截图 [test_33310_pass.png] 成功保存在 [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\screenshots\pass]
+2019-09-04 18:24:51,463 - test_02_order.test_33310 - INFO - 运行成功：生成订单成功
+2019-09-04 18:24:51,480 - framework.myunit - INFO - ************************test case run completed************************
+2019-09-04 18:24:53,716 - framework.myunit - INFO - quit the browser success!
+2019-09-04 18:24:55,948 - framework.driver - INFO - found the chrome driver [<selenium.webdriver.chrome.webdriver.WebDriver (session="6499d598fd35a0852a05c05879bed680")>] successed !
+2019-09-04 18:24:57,090 - framework.myunit - INFO - opened the browser successed!
+2019-09-04 18:24:59,305 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-09-04 18:24:59,373 - framework.base_page - INFO - 清除文本框内容成功username
+2019-09-04 18:24:59,488 - framework.base_page - INFO - 输入的内容：13777466979
+2019-09-04 18:24:59,560 - framework.base_page - INFO - 清除文本框内容成功password
+2019-09-04 18:24:59,652 - framework.base_page - INFO - 输入的内容：test123456
+2019-09-04 18:25:03,677 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-09-04 18:25:03,677 - framework.myunit - INFO - ************************starting run test cases************************
+2019-09-04 18:25:04,646 - framework.base_page - INFO - https://cart-staging.zcygov.cn/ 地址正常打开
+2019-09-04 18:25:10,706 - pageobjects.order_page - ERROR - 未找到全选按钮
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\Zcy_Vaccine\pageobjects\order_page.py", line 35, in clearcart
+    self.driver.find_element_by_xpath('//input[@class="ant-checkbox-input"]').click()
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@class="ant-checkbox-input"]"}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+2019-09-04 18:25:11,686 - framework.base_page - INFO - https://vaccine-staging.zcygov.cn/items/175600205?searchType=1&type=vaccine&utm=a0004.2ef5001f.0.0.33d8ffd0ca0411e9af8ed36431cbf75c 地址正常打开
+2019-09-04 18:25:12,262 - framework.base_page - INFO - 点击元素成功//*[contains(text(),"加入购物车")]
+2019-09-04 18:25:13,161 - framework.base_page - INFO - 点击元素成功//*[contains(text(),"查看购物车")]
+2019-09-04 18:25:30,029 - framework.base_page - INFO - 点击元素成功select2-selection__placeholder
+2019-09-04 18:25:30,106 - framework.base_page - INFO - 点击元素成功//li[text()="席胜军"]
+2019-09-04 18:25:30,207 - framework.base_page - INFO - 点击元素成功//button[text()="提交"]
+2019-09-04 18:25:30,657 - framework.base_page - INFO - 点击元素成功submit
+2019-09-04 18:25:32,298 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-04 18:25:33,662 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-04 18:25:33,783 - framework.base_page - INFO - 点击元素成功//button[text()="提交审核意见"]
+2019-09-04 18:25:33,857 - framework.base_page - INFO - 点击元素成功submit
+2019-09-04 18:25:35,217 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-04 18:25:36,583 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-04 18:25:36,701 - framework.base_page - INFO - 点击元素成功//button[text()="提交审核意见"]
+2019-09-04 18:25:36,787 - framework.base_page - INFO - 点击元素成功submit
+2019-09-04 18:25:38,193 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-04 18:25:39,812 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-04 18:25:39,949 - framework.base_page - INFO - 点击元素成功//button[text()="提交审核意见"]
+2019-09-04 18:25:40,024 - framework.base_page - INFO - 点击元素成功submit
+2019-09-04 18:25:41,321 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-04 18:25:42,770 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-04 18:25:42,883 - framework.base_page - INFO - 点击元素成功//button[text()="确定订单"]
+2019-09-04 18:25:44,898 - framework.base_page - INFO - 刷新页面
+2019-09-04 18:25:45,924 - framework.base_page - INFO - 点击元素成功div.order-form-list-body > table > tbody > tr:nth-child(1) > td:nth-child(8)> a:nth-child(1)
+2019-09-04 18:25:46,078 - framework.base_page - INFO - 清除文本框内容成功js-cancel-reason
+2019-09-04 18:25:46,143 - framework.base_page - INFO - 输入的内容：测试环境取消订单
+2019-09-04 18:25:46,220 - framework.base_page - INFO - 点击元素成功//button[text()="确定"]
+2019-09-04 18:25:46,233 - framework.base_page - INFO - 刷新页面
+2019-09-04 18:25:47,743 - framework.base_page - INFO - 获取元素内容: 订单取消
+2019-09-04 18:25:48,273 - framework.base_page - INFO - 截图 [test_33312_pass.png] 成功保存在 [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\screenshots\pass]
+2019-09-04 18:25:48,274 - test_02_order.test_33312 - INFO - 运行成功：取消订单成功
+2019-09-04 18:25:48,288 - framework.myunit - INFO - ************************test case run completed************************
+2019-09-04 18:25:50,518 - framework.myunit - INFO - quit the browser success!
+2019-09-04 18:25:52,941 - framework.driver - INFO - found the chrome driver [<selenium.webdriver.chrome.webdriver.WebDriver (session="188b7ab01c9ce8722615d01f28aafc34")>] successed !
+2019-09-04 18:25:54,067 - framework.myunit - INFO - opened the browser successed!
+2019-09-04 18:25:56,500 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-09-04 18:25:56,566 - framework.base_page - INFO - 清除文本框内容成功username
+2019-09-04 18:25:56,701 - framework.base_page - INFO - 输入的内容：13777466979
+2019-09-04 18:25:56,766 - framework.base_page - INFO - 清除文本框内容成功password
+2019-09-04 18:25:56,864 - framework.base_page - INFO - 输入的内容：test123456
+2019-09-04 18:26:00,826 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-09-04 18:26:00,827 - framework.myunit - INFO - ************************starting run test cases************************
+2019-09-04 18:26:01,859 - framework.base_page - INFO - https://vaccine-staging.zcygov.cn/items/175600205?searchType=1&type=vaccine&utm=a0004.2ef5001f.0.0.33d8ffd0ca0411e9af8ed36431cbf75c 地址正常打开
+2019-09-04 18:26:03,957 - framework.base_page - INFO - 点击元素成功//*[contains(text(),"立即下单")]
+2019-09-04 18:26:12,893 - framework.base_page - INFO - 点击元素成功select2-selection__placeholder
+2019-09-04 18:26:12,970 - framework.base_page - INFO - 点击元素成功//li[text()="席胜军"]
+2019-09-04 18:26:13,069 - framework.base_page - INFO - 点击元素成功//button[text()="提交"]
+2019-09-04 18:26:13,382 - framework.base_page - INFO - 点击元素成功submit
+2019-09-04 18:26:14,846 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-04 18:26:16,062 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-04 18:26:16,212 - framework.base_page - INFO - 点击元素成功//button[text()="提交审核意见"]
+2019-09-04 18:26:16,289 - framework.base_page - INFO - 点击元素成功submit
+2019-09-04 18:26:17,491 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-04 18:26:18,673 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-04 18:26:18,779 - framework.base_page - INFO - 点击元素成功//button[text()="提交审核意见"]
+2019-09-04 18:26:18,853 - framework.base_page - INFO - 点击元素成功submit
+2019-09-04 18:26:20,024 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-04 18:26:21,467 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-04 18:26:21,578 - framework.base_page - INFO - 点击元素成功//button[text()="提交审核意见"]
+2019-09-04 18:26:21,657 - framework.base_page - INFO - 点击元素成功submit
+2019-09-04 18:26:22,807 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-04 18:26:23,984 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-04 18:26:24,096 - framework.base_page - INFO - 点击元素成功//button[text()="确定订单"]
+2019-09-04 18:26:26,110 - framework.base_page - INFO - 刷新页面
+2019-09-04 18:26:27,388 - framework.base_page - INFO - 点击元素成功header-right-user-avatar
+2019-09-04 18:26:29,046 - framework.base_page - INFO - 点击元素成功logout
+2019-09-04 18:26:34,118 - framework.base_page - INFO - 清除文本框内容成功username
+2019-09-04 18:26:34,216 - framework.base_page - INFO - 输入的内容：SINOVAC
+2019-09-04 18:26:34,272 - framework.base_page - INFO - 清除文本框内容成功password
+2019-09-04 18:26:34,371 - framework.base_page - INFO - 输入的内容：test123456
+2019-09-04 18:26:36,282 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-09-04 18:26:37,928 - framework.base_page - INFO - https://staging.zcygov.cn/seller/vaccine-orders 地址正常打开
+2019-09-04 18:26:38,014 - framework.base_page - INFO - 点击元素成功div.order-form-list-body > table > tbody > tr:nth-child(1)  > td:nth-child(7) > a
+2019-09-04 18:26:38,394 - framework.base_page - INFO - 点击元素成功//button[text()="确认接单"]
+2019-09-04 18:26:38,408 - framework.base_page - INFO - 刷新页面
+2019-09-04 18:26:39,742 - framework.base_page - INFO - 获取元素内容: 待发货
+2019-09-04 18:26:40,045 - framework.base_page - INFO - 截图 [test_33313_pass.png] 成功保存在 [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\screenshots\pass]
+2019-09-04 18:26:40,045 - test_02_order.test_33313 - INFO - 运行成功：接单成功
+2019-09-04 18:26:40,061 - framework.myunit - INFO - ************************test case run completed************************
+2019-09-04 18:26:42,294 - framework.myunit - INFO - quit the browser success!
+2019-09-04 18:26:44,757 - framework.driver - INFO - found the chrome driver [<selenium.webdriver.chrome.webdriver.WebDriver (session="a31b1a748fee0af1678161d21a294a09")>] successed !
+2019-09-04 18:26:45,879 - framework.myunit - INFO - opened the browser successed!
+2019-09-04 18:26:48,195 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-09-04 18:26:48,260 - framework.base_page - INFO - 清除文本框内容成功username
+2019-09-04 18:26:48,375 - framework.base_page - INFO - 输入的内容：13777466979
+2019-09-04 18:26:48,439 - framework.base_page - INFO - 清除文本框内容成功password
+2019-09-04 18:26:48,535 - framework.base_page - INFO - 输入的内容：test123456
+2019-09-04 18:26:52,346 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-09-04 18:26:52,347 - framework.myunit - INFO - ************************starting run test cases************************
+2019-09-04 18:26:54,134 - framework.base_page - INFO - https://vaccine-staging.zcygov.cn/items/175600205?searchType=1&type=vaccine&utm=a0004.2ef5001f.0.0.33d8ffd0ca0411e9af8ed36431cbf75c 地址正常打开
+2019-09-04 18:26:56,230 - framework.base_page - INFO - 点击元素成功//*[contains(text(),"立即下单")]
+2019-09-04 18:27:04,777 - framework.base_page - INFO - 点击元素成功select2-selection__placeholder
+2019-09-04 18:27:04,857 - framework.base_page - INFO - 点击元素成功//li[text()="席胜军"]
+2019-09-04 18:27:04,958 - framework.base_page - INFO - 点击元素成功//button[text()="提交"]
+2019-09-04 18:27:05,338 - framework.base_page - INFO - 点击元素成功submit
+2019-09-04 18:27:06,956 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-04 18:27:08,168 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-04 18:27:08,314 - framework.base_page - INFO - 点击元素成功//button[text()="提交审核意见"]
+2019-09-04 18:27:08,388 - framework.base_page - INFO - 点击元素成功submit
+2019-09-04 18:27:09,563 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-04 18:27:10,737 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-04 18:27:10,851 - framework.base_page - INFO - 点击元素成功//button[text()="提交审核意见"]
+2019-09-04 18:27:10,919 - framework.base_page - INFO - 点击元素成功submit
+2019-09-04 18:27:12,156 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-04 18:27:13,579 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-04 18:27:13,699 - framework.base_page - INFO - 点击元素成功//button[text()="提交审核意见"]
+2019-09-04 18:27:13,774 - framework.base_page - INFO - 点击元素成功submit
+2019-09-04 18:27:14,990 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-04 18:27:15,981 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-04 18:27:16,100 - framework.base_page - INFO - 点击元素成功//button[text()="确定订单"]
+2019-09-04 18:27:18,116 - framework.base_page - INFO - 刷新页面
+2019-09-04 18:27:19,041 - framework.base_page - INFO - 点击元素成功header-right-user-avatar
+2019-09-04 18:27:20,695 - framework.base_page - INFO - 点击元素成功logout
+2019-09-04 18:27:25,757 - framework.base_page - INFO - 清除文本框内容成功username
+2019-09-04 18:27:25,848 - framework.base_page - INFO - 输入的内容：SINOVAC
+2019-09-04 18:27:25,906 - framework.base_page - INFO - 清除文本框内容成功password
+2019-09-04 18:27:25,990 - framework.base_page - INFO - 输入的内容：test123456
+2019-09-04 18:27:28,515 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-09-04 18:27:30,297 - framework.base_page - INFO - https://staging.zcygov.cn/seller/vaccine-orders 地址正常打开
+2019-09-04 18:27:30,371 - framework.base_page - INFO - 点击元素成功div.order-form-list-body > table > tbody > tr:nth-child(1)  > td:nth-child(7) > a
+2019-09-04 18:27:30,633 - framework.base_page - INFO - 点击元素成功//button[text()="确认接单"]
+2019-09-04 18:27:30,653 - framework.base_page - INFO - 刷新页面
+2019-09-04 18:27:36,232 - framework.base_page - INFO - 点击元素成功div.order-form-list-body > table > tbody > tr:nth-child(1)  > td:nth-child(7) > a:nth-child(3)
+2019-09-04 18:27:36,341 - framework.base_page - INFO - 点击元素成功selectric-js-all-select-warehouse
+2019-09-04 18:27:36,439 - framework.base_page - INFO - 点击元素成功//li[contains(text(),"默认仓库")]
+2019-09-04 18:27:36,497 - framework.base_page - INFO - 清除文本框内容成功js-shipmentNo
+2019-09-04 18:27:36,594 - framework.base_page - INFO - 输入的内容：12222221
+2019-09-04 18:27:36,705 - framework.base_page - INFO - 点击元素成功//*[@type="checkbox"]
+2019-09-04 18:27:36,818 - framework.base_page - INFO - 点击元素成功//*[contains(text(),"添加批号")]
+2019-09-04 18:27:37,067 - framework.base_page - INFO - 点击元素成功select2-selection__rendered
+2019-09-04 18:27:37,135 - framework.base_page - INFO - 点击元素成功ul.select2-results__options > li:nth-child(2)
+2019-09-04 18:27:37,209 - framework.base_page - INFO - 清除文本框内容成功goodsCount
+2019-09-04 18:27:37,252 - framework.base_page - INFO - 输入的内容：1
+2019-09-04 18:27:37,330 - framework.base_page - INFO - 点击元素成功//button[text()="确定"]
+2019-09-04 18:27:42,403 - framework.base_page - INFO - 点击元素成功//button[text()="确认发货"]
+2019-09-04 18:27:47,440 - framework.base_page - INFO - 获取元素内容: 全部发货
+2019-09-04 18:27:47,722 - framework.base_page - INFO - 截图 [test_33314_pass.png] 成功保存在 [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\screenshots\pass]
+2019-09-04 18:27:47,722 - test_02_order.test_33314 - INFO - 运行成功：供应商发货成功
+2019-09-04 18:27:47,735 - framework.myunit - INFO - ************************test case run completed************************
+2019-09-04 18:27:49,973 - framework.myunit - INFO - quit the browser success!
+2019-09-04 18:27:52,404 - framework.driver - INFO - found the chrome driver [<selenium.webdriver.chrome.webdriver.WebDriver (session="812394b356868042d176657eb080e0b1")>] successed !
+2019-09-04 18:27:53,531 - framework.myunit - INFO - opened the browser successed!
+2019-09-04 18:27:57,125 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-09-04 18:27:57,188 - framework.base_page - INFO - 清除文本框内容成功username
+2019-09-04 18:27:57,292 - framework.base_page - INFO - 输入的内容：13777466979
+2019-09-04 18:27:57,361 - framework.base_page - INFO - 清除文本框内容成功password
+2019-09-04 18:27:57,457 - framework.base_page - INFO - 输入的内容：test123456
+2019-09-04 18:28:01,560 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-09-04 18:28:01,560 - framework.myunit - INFO - ************************starting run test cases************************
+2019-09-04 18:28:02,381 - framework.base_page - INFO - https://vaccine-staging.zcygov.cn/items/175600205?searchType=1&type=vaccine&utm=a0004.2ef5001f.0.0.33d8ffd0ca0411e9af8ed36431cbf75c 地址正常打开
+2019-09-04 18:28:04,482 - framework.base_page - INFO - 点击元素成功//*[contains(text(),"立即下单")]
+2019-09-04 18:28:13,021 - framework.base_page - INFO - 点击元素成功select2-selection__placeholder
+2019-09-04 18:28:13,111 - framework.base_page - INFO - 点击元素成功//li[text()="席胜军"]
+2019-09-04 18:28:13,237 - framework.base_page - INFO - 点击元素成功//button[text()="提交"]
+2019-09-04 18:28:13,631 - framework.base_page - INFO - 点击元素成功submit
+2019-09-04 18:28:15,256 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-04 18:28:16,452 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-04 18:28:16,604 - framework.base_page - INFO - 点击元素成功//button[text()="提交审核意见"]
+2019-09-04 18:28:16,685 - framework.base_page - INFO - 点击元素成功submit
+2019-09-04 18:28:17,804 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-04 18:28:18,967 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-04 18:28:19,069 - framework.base_page - INFO - 点击元素成功//button[text()="提交审核意见"]
+2019-09-04 18:28:19,143 - framework.base_page - INFO - 点击元素成功submit
+2019-09-04 18:28:20,400 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-04 18:28:21,898 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-04 18:28:22,015 - framework.base_page - INFO - 点击元素成功//button[text()="提交审核意见"]
+2019-09-04 18:28:22,088 - framework.base_page - INFO - 点击元素成功submit
+2019-09-04 18:28:23,303 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-04 18:28:24,375 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-04 18:28:24,490 - framework.base_page - INFO - 点击元素成功//button[text()="确定订单"]
+2019-09-04 18:28:26,506 - framework.base_page - INFO - 刷新页面
+2019-09-04 18:28:27,859 - framework.base_page - INFO - 点击元素成功header-right-user-avatar
+2019-09-04 18:28:29,461 - framework.base_page - INFO - 点击元素成功logout
+2019-09-04 18:28:34,572 - framework.base_page - INFO - 清除文本框内容成功username
+2019-09-04 18:28:34,694 - framework.base_page - INFO - 输入的内容：SINOVAC
+2019-09-04 18:28:34,751 - framework.base_page - INFO - 清除文本框内容成功password
+2019-09-04 18:28:34,844 - framework.base_page - INFO - 输入的内容：test123456
+2019-09-04 18:28:36,842 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-09-04 18:28:38,649 - framework.base_page - INFO - https://staging.zcygov.cn/seller/vaccine-orders 地址正常打开
+2019-09-04 18:28:38,732 - framework.base_page - INFO - 点击元素成功div.order-form-list-body > table > tbody > tr:nth-child(1)  > td:nth-child(7) > a
+2019-09-04 18:28:39,009 - framework.base_page - INFO - 点击元素成功//button[text()="确认接单"]
+2019-09-04 18:28:39,023 - framework.base_page - INFO - 刷新页面
+2019-09-04 18:28:40,693 - framework.base_page - INFO - 点击元素成功header-right-user-avatar
+2019-09-04 18:28:42,163 - framework.base_page - INFO - 点击元素成功logout
+2019-09-04 18:28:47,221 - framework.base_page - INFO - 清除文本框内容成功username
+2019-09-04 18:28:47,328 - framework.base_page - INFO - 输入的内容：13777466979
+2019-09-04 18:28:47,379 - framework.base_page - INFO - 清除文本框内容成功password
+2019-09-04 18:28:47,468 - framework.base_page - INFO - 输入的内容：test123456
+2019-09-04 18:28:49,159 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-09-04 18:28:50,477 - framework.base_page - INFO - https://staging.zcygov.cn/buyer/vaccine-orders 地址正常打开
+2019-09-04 18:28:50,558 - framework.base_page - INFO - 点击元素成功div.order-form-list-body > table > tbody > tr:nth-child(1) > td:nth-child(8)> a:nth-child(3)
+2019-09-04 18:28:50,625 - framework.base_page - INFO - 清除文本框内容成功js-cancel-reason
+2019-09-04 18:28:50,692 - framework.base_page - INFO - 输入的内容：测试环境取消订单
+2019-09-04 18:28:50,774 - framework.base_page - INFO - 点击元素成功//button[text()="确定"]
+2019-09-04 18:28:50,789 - framework.base_page - INFO - 刷新页面
+2019-09-04 18:28:52,179 - framework.base_page - INFO - 点击元素成功header-right-user-avatar
+2019-09-04 18:28:53,437 - framework.base_page - INFO - 点击元素成功logout
+2019-09-04 18:28:58,493 - framework.base_page - INFO - 清除文本框内容成功username
+2019-09-04 18:28:58,588 - framework.base_page - INFO - 输入的内容：SINOVAC
+2019-09-04 18:28:58,642 - framework.base_page - INFO - 清除文本框内容成功password
+2019-09-04 18:28:58,747 - framework.base_page - INFO - 输入的内容：test123456
+2019-09-04 18:29:00,559 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-09-04 18:29:01,963 - framework.base_page - INFO - https://staging.zcygov.cn/seller/vaccine-orders 地址正常打开
+2019-09-04 18:29:02,043 - framework.base_page - INFO - 点击元素成功div.order-form-list-body > table > tbody > tr:nth-child(1)  > td:nth-child(7) > a:nth-child(3)
+2019-09-04 18:29:02,097 - framework.base_page - INFO - 清除文本框内容成功js-cancel-reason
+2019-09-04 18:29:02,163 - framework.base_page - INFO - 输入的内容：供应商同意取消订单
+2019-09-04 18:29:02,244 - framework.base_page - INFO - 点击元素成功//button[text()="确定"]
+2019-09-04 18:29:02,260 - framework.base_page - INFO - 刷新页面
+2019-09-04 18:29:03,800 - framework.base_page - INFO - 获取元素内容: 订单取消
+2019-09-04 18:29:04,093 - framework.base_page - INFO - 截图 [test_33315_pass.png] 成功保存在 [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\screenshots\pass]
+2019-09-04 18:29:04,093 - test_02_order.test_33315 - INFO - 运行成功：供应商接单后，取消订单成功
+2019-09-04 18:29:04,107 - framework.myunit - INFO - ************************test case run completed************************
+2019-09-04 18:29:06,337 - framework.myunit - INFO - quit the browser success!
+2019-09-04 18:29:08,847 - framework.driver - INFO - found the chrome driver [<selenium.webdriver.chrome.webdriver.WebDriver (session="93429afdf59cd9700e7c650b164ae370")>] successed !
+2019-09-04 18:29:09,972 - framework.myunit - INFO - opened the browser successed!
+2019-09-04 18:29:12,210 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-09-04 18:29:12,279 - framework.base_page - INFO - 清除文本框内容成功username
+2019-09-04 18:29:12,394 - framework.base_page - INFO - 输入的内容：13777466979
+2019-09-04 18:29:12,459 - framework.base_page - INFO - 清除文本框内容成功password
+2019-09-04 18:29:12,558 - framework.base_page - INFO - 输入的内容：test123456
+2019-09-04 18:29:16,416 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-09-04 18:29:16,417 - framework.myunit - INFO - ************************starting run test cases************************
+2019-09-04 18:29:17,475 - framework.base_page - INFO - https://vaccine-staging.zcygov.cn/items/175600205?searchType=1&type=vaccine&utm=a0004.2ef5001f.0.0.33d8ffd0ca0411e9af8ed36431cbf75c 地址正常打开
+2019-09-04 18:29:19,571 - framework.base_page - INFO - 点击元素成功//*[contains(text(),"立即下单")]
+2019-09-04 18:29:28,051 - framework.base_page - INFO - 点击元素成功select2-selection__placeholder
+2019-09-04 18:29:28,127 - framework.base_page - INFO - 点击元素成功//li[text()="席胜军"]
+2019-09-04 18:29:28,234 - framework.base_page - INFO - 点击元素成功//button[text()="提交"]
+2019-09-04 18:29:28,586 - framework.base_page - INFO - 点击元素成功submit
+2019-09-04 18:29:30,079 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-04 18:29:31,419 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-04 18:29:31,567 - framework.base_page - INFO - 点击元素成功//button[text()="提交审核意见"]
+2019-09-04 18:29:31,642 - framework.base_page - INFO - 点击元素成功submit
+2019-09-04 18:29:32,862 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-04 18:29:34,157 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-04 18:29:34,270 - framework.base_page - INFO - 点击元素成功//button[text()="提交审核意见"]
+2019-09-04 18:29:34,352 - framework.base_page - INFO - 点击元素成功submit
+2019-09-04 18:29:35,618 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-04 18:29:37,410 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-04 18:29:37,528 - framework.base_page - INFO - 点击元素成功//button[text()="提交审核意见"]
+2019-09-04 18:29:37,609 - framework.base_page - INFO - 点击元素成功submit
+2019-09-04 18:29:38,833 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-04 18:29:39,835 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-04 18:29:39,952 - framework.base_page - INFO - 点击元素成功//button[text()="确定订单"]
+2019-09-04 18:29:41,967 - framework.base_page - INFO - 刷新页面
+2019-09-04 18:29:43,024 - framework.base_page - INFO - 点击元素成功header-right-user-avatar
+2019-09-04 18:29:44,714 - framework.base_page - INFO - 点击元素成功logout
+2019-09-04 18:29:49,777 - framework.base_page - INFO - 清除文本框内容成功username
+2019-09-04 18:29:49,872 - framework.base_page - INFO - 输入的内容：SINOVAC
+2019-09-04 18:29:49,926 - framework.base_page - INFO - 清除文本框内容成功password
+2019-09-04 18:29:50,016 - framework.base_page - INFO - 输入的内容：test123456
+2019-09-04 18:29:52,027 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-09-04 18:29:53,671 - framework.base_page - INFO - https://staging.zcygov.cn/seller/vaccine-orders 地址正常打开
+2019-09-04 18:29:53,752 - framework.base_page - INFO - 点击元素成功div.order-form-list-body > table > tbody > tr:nth-child(1)  > td:nth-child(7) > a
+2019-09-04 18:29:54,032 - framework.base_page - INFO - 点击元素成功//button[text()="确认接单"]
+2019-09-04 18:29:54,047 - framework.base_page - INFO - 刷新页面
+2019-09-04 18:29:56,477 - framework.base_page - INFO - 点击元素成功div.order-form-list-body > table > tbody > tr:nth-child(1)  > td:nth-child(7) > a:nth-child(3)
+2019-09-04 18:29:56,601 - framework.base_page - INFO - 点击元素成功selectric-js-all-select-warehouse
+2019-09-04 18:29:56,705 - framework.base_page - INFO - 点击元素成功//li[contains(text(),"默认仓库")]
+2019-09-04 18:29:56,763 - framework.base_page - INFO - 清除文本框内容成功js-shipmentNo
+2019-09-04 18:29:56,894 - framework.base_page - INFO - 输入的内容：12222221
+2019-09-04 18:29:56,997 - framework.base_page - INFO - 点击元素成功//*[@type="checkbox"]
+2019-09-04 18:29:57,069 - framework.base_page - INFO - 点击元素成功//*[contains(text(),"添加批号")]
+2019-09-04 18:29:57,332 - framework.base_page - INFO - 点击元素成功select2-selection__rendered
+2019-09-04 18:29:57,402 - framework.base_page - INFO - 点击元素成功ul.select2-results__options > li:nth-child(2)
+2019-09-04 18:29:57,469 - framework.base_page - INFO - 清除文本框内容成功goodsCount
+2019-09-04 18:29:57,511 - framework.base_page - INFO - 输入的内容：1
+2019-09-04 18:29:57,585 - framework.base_page - INFO - 点击元素成功//button[text()="确定"]
+2019-09-04 18:30:02,666 - framework.base_page - INFO - 点击元素成功//button[text()="确认发货"]
+2019-09-04 18:30:07,729 - framework.base_page - INFO - 点击元素成功header-right-user-avatar
+2019-09-04 18:30:09,100 - framework.base_page - INFO - 点击元素成功logout
+2019-09-04 18:30:14,159 - framework.base_page - INFO - 清除文本框内容成功username
+2019-09-04 18:30:14,265 - framework.base_page - INFO - 输入的内容：13777466979
+2019-09-04 18:30:14,317 - framework.base_page - INFO - 清除文本框内容成功password
+2019-09-04 18:30:14,410 - framework.base_page - INFO - 输入的内容：test123456
+2019-09-04 18:30:16,256 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-09-04 18:30:17,384 - framework.base_page - INFO - https://staging.zcygov.cn/buyer/vaccine-orders 地址正常打开
+2019-09-04 18:30:19,059 - framework.base_page - INFO - 点击元素成功div.order-form-list-body > table > tbody > tr:nth-child(1) > td:nth-child(8)> a:nth-child(1)
+2019-09-04 18:30:19,222 - framework.base_page - INFO - 点击元素成功确认收货
+2019-09-04 18:30:19,627 - framework.base_page - INFO - 点击元素成功hasChecked
+2019-09-04 18:30:19,693 - framework.base_page - INFO - 点击元素成功//button[text()="确认收货"]
+2019-09-04 18:30:20,360 - framework.base_page - INFO - 浏览器后退操作
+2019-09-04 18:30:20,372 - framework.base_page - INFO - 刷新页面
+2019-09-04 18:30:21,507 - framework.base_page - INFO - 获取元素内容: 待验收
+2019-09-04 18:30:21,809 - framework.base_page - INFO - 截图 [test_33316_pass.png] 成功保存在 [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\screenshots\pass]
+2019-09-04 18:30:21,810 - test_02_order.test_33316 - INFO - 运行成功：收货成功
+2019-09-04 18:30:21,822 - framework.myunit - INFO - ************************test case run completed************************
+2019-09-04 18:30:24,051 - framework.myunit - INFO - quit the browser success!
+2019-09-04 18:30:26,450 - framework.driver - INFO - found the chrome driver [<selenium.webdriver.chrome.webdriver.WebDriver (session="9949a41b5013bc6972ea411b51614ae5")>] successed !
+2019-09-04 18:30:27,576 - framework.myunit - INFO - opened the browser successed!
+2019-09-04 18:30:29,661 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-09-04 18:30:29,728 - framework.base_page - INFO - 清除文本框内容成功username
+2019-09-04 18:30:29,854 - framework.base_page - INFO - 输入的内容：13777466979
+2019-09-04 18:30:29,920 - framework.base_page - INFO - 清除文本框内容成功password
+2019-09-04 18:30:30,010 - framework.base_page - INFO - 输入的内容：test123456
+2019-09-04 18:30:33,926 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-09-04 18:30:33,926 - framework.myunit - INFO - ************************starting run test cases************************
+2019-09-04 18:30:35,724 - framework.base_page - INFO - https://vaccine-staging.zcygov.cn/items/175600205?searchType=1&type=vaccine&utm=a0004.2ef5001f.0.0.33d8ffd0ca0411e9af8ed36431cbf75c 地址正常打开
+2019-09-04 18:30:37,823 - framework.base_page - INFO - 点击元素成功//*[contains(text(),"立即下单")]
+2019-09-04 18:30:46,200 - framework.base_page - INFO - 点击元素成功select2-selection__placeholder
+2019-09-04 18:30:46,278 - framework.base_page - INFO - 点击元素成功//li[text()="席胜军"]
+2019-09-04 18:30:46,379 - framework.base_page - INFO - 点击元素成功//button[text()="提交"]
+2019-09-04 18:30:46,688 - framework.base_page - INFO - 点击元素成功submit
+2019-09-04 18:30:48,137 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-04 18:30:49,302 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-04 18:30:49,451 - framework.base_page - INFO - 点击元素成功//button[text()="提交审核意见"]
+2019-09-04 18:30:49,529 - framework.base_page - INFO - 点击元素成功submit
+2019-09-04 18:30:50,733 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-04 18:30:51,945 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-04 18:30:52,072 - framework.base_page - INFO - 点击元素成功//button[text()="提交审核意见"]
+2019-09-04 18:30:52,156 - framework.base_page - INFO - 点击元素成功submit
+2019-09-04 18:30:53,355 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-04 18:30:54,941 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-04 18:30:55,058 - framework.base_page - INFO - 点击元素成功//button[text()="提交审核意见"]
+2019-09-04 18:30:55,144 - framework.base_page - INFO - 点击元素成功submit
+2019-09-04 18:30:56,408 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-04 18:30:57,461 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-04 18:30:57,577 - framework.base_page - INFO - 点击元素成功//button[text()="确定订单"]
+2019-09-04 18:30:59,597 - framework.base_page - INFO - 刷新页面
+2019-09-04 18:31:00,805 - framework.base_page - INFO - 点击元素成功header-right-user-avatar
+2019-09-04 18:31:02,449 - framework.base_page - INFO - 点击元素成功logout
+2019-09-04 18:31:07,511 - framework.base_page - INFO - 清除文本框内容成功username
+2019-09-04 18:31:07,610 - framework.base_page - INFO - 输入的内容：SINOVAC
+2019-09-04 18:31:07,671 - framework.base_page - INFO - 清除文本框内容成功password
+2019-09-04 18:31:07,771 - framework.base_page - INFO - 输入的内容：test123456
+2019-09-04 18:31:09,789 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-09-04 18:31:11,374 - framework.base_page - INFO - https://staging.zcygov.cn/seller/vaccine-orders 地址正常打开
+2019-09-04 18:31:11,453 - framework.base_page - INFO - 点击元素成功div.order-form-list-body > table > tbody > tr:nth-child(1)  > td:nth-child(7) > a
+2019-09-04 18:31:11,733 - framework.base_page - INFO - 点击元素成功//button[text()="确认接单"]
+2019-09-04 18:31:11,749 - framework.base_page - INFO - 刷新页面
+2019-09-04 18:31:14,052 - framework.base_page - INFO - 点击元素成功div.order-form-list-body > table > tbody > tr:nth-child(1)  > td:nth-child(7) > a:nth-child(3)
+2019-09-04 18:31:14,180 - framework.base_page - INFO - 点击元素成功selectric-js-all-select-warehouse
+2019-09-04 18:31:14,270 - framework.base_page - INFO - 点击元素成功//li[contains(text(),"默认仓库")]
+2019-09-04 18:31:14,329 - framework.base_page - INFO - 清除文本框内容成功js-shipmentNo
+2019-09-04 18:31:14,430 - framework.base_page - INFO - 输入的内容：12222221
+2019-09-04 18:31:14,563 - framework.base_page - INFO - 点击元素成功//*[@type="checkbox"]
+2019-09-04 18:31:14,637 - framework.base_page - INFO - 点击元素成功//*[contains(text(),"添加批号")]
+2019-09-04 18:31:14,848 - framework.base_page - INFO - 点击元素成功select2-selection__rendered
+2019-09-04 18:31:14,917 - framework.base_page - INFO - 点击元素成功ul.select2-results__options > li:nth-child(2)
+2019-09-04 18:31:14,989 - framework.base_page - INFO - 清除文本框内容成功goodsCount
+2019-09-04 18:31:15,028 - framework.base_page - INFO - 输入的内容：1
+2019-09-04 18:31:15,109 - framework.base_page - INFO - 点击元素成功//button[text()="确定"]
+2019-09-04 18:31:20,184 - framework.base_page - INFO - 点击元素成功//button[text()="确认发货"]
+2019-09-04 18:31:25,281 - framework.base_page - INFO - 点击元素成功header-right-user-avatar
+2019-09-04 18:31:26,633 - framework.base_page - INFO - 点击元素成功logout
+2019-09-04 18:31:31,693 - framework.base_page - INFO - 清除文本框内容成功username
+2019-09-04 18:31:31,811 - framework.base_page - INFO - 输入的内容：13777466979
+2019-09-04 18:31:31,861 - framework.base_page - INFO - 清除文本框内容成功password
+2019-09-04 18:31:31,953 - framework.base_page - INFO - 输入的内容：test123456
+2019-09-04 18:31:33,733 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-09-04 18:31:34,942 - framework.base_page - INFO - https://staging.zcygov.cn/buyer/vaccine-orders 地址正常打开
+2019-09-04 18:31:36,819 - framework.base_page - INFO - 点击元素成功div.order-form-list-body > table > tbody > tr:nth-child(1) > td:nth-child(8)> a:nth-child(1)
+2019-09-04 18:31:36,980 - framework.base_page - INFO - 点击元素成功确认收货
+2019-09-04 18:31:37,390 - framework.base_page - INFO - 点击元素成功hasChecked
+2019-09-04 18:31:37,499 - framework.base_page - INFO - 点击元素成功//button[text()="确认收货"]
+2019-09-04 18:31:38,114 - framework.base_page - INFO - 浏览器后退操作
+2019-09-04 18:31:38,126 - framework.base_page - INFO - 刷新页面
+2019-09-04 18:31:39,318 - framework.base_page - INFO - 点击元素成功div.order-form-list-body > table > tbody > tr:nth-child(1) > td:nth-child(8)> a.js-order-check
+2019-09-04 18:31:39,335 - framework.base_page - INFO - 刷新页面
+2019-09-04 18:31:40,773 - framework.base_page - INFO - 获取元素内容: 已验收
+2019-09-04 18:31:41,030 - framework.base_page - INFO - 截图 [test_33317_pass.png] 成功保存在 [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\screenshots\pass]
+2019-09-04 18:31:41,030 - test_02_order.test_33317 - INFO - 运行成功：验收成功
+2019-09-04 18:31:41,042 - framework.myunit - INFO - ************************test case run completed************************
+2019-09-04 18:31:43,264 - framework.myunit - INFO - quit the browser success!
+2019-09-04 18:31:45,642 - framework.driver - INFO - found the chrome driver [<selenium.webdriver.chrome.webdriver.WebDriver (session="910ccbae1d73b56207540f9da845a716")>] successed !
+2019-09-04 18:31:46,773 - framework.myunit - INFO - opened the browser successed!
+2019-09-04 18:31:48,696 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-09-04 18:31:48,758 - framework.base_page - INFO - 清除文本框内容成功username
+2019-09-04 18:31:48,880 - framework.base_page - INFO - 输入的内容：13777466979
+2019-09-04 18:31:48,952 - framework.base_page - INFO - 清除文本框内容成功password
+2019-09-04 18:31:49,047 - framework.base_page - INFO - 输入的内容：test123456
+2019-09-04 18:31:52,880 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-09-04 18:31:52,880 - framework.myunit - INFO - ************************starting run test cases************************
+2019-09-04 18:31:53,624 - framework.base_page - INFO - https://cart-staging.zcygov.cn/ 地址正常打开
+2019-09-04 18:31:59,632 - pageobjects.order_page - ERROR - 未找到全选按钮
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\Zcy_Vaccine\pageobjects\order_page.py", line 35, in clearcart
+    self.driver.find_element_by_xpath('//input[@class="ant-checkbox-input"]').click()
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@class="ant-checkbox-input"]"}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+2019-09-04 18:31:59,916 - framework.base_page - INFO - 截图 [test_33324_pass.png] 成功保存在 [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\screenshots\pass]
+2019-09-04 18:31:59,916 - test_02_order.test_33324 - INFO - 运行成功：清空购物车成功
+2019-09-04 18:31:59,934 - framework.myunit - INFO - ************************test case run completed************************
+2019-09-04 18:32:02,133 - framework.myunit - INFO - quit the browser success!
+2019-09-04 18:32:04,578 - framework.driver - INFO - found the chrome driver [<selenium.webdriver.chrome.webdriver.WebDriver (session="4e0180a97992539daef46c44da7c2200")>] successed !
+2019-09-04 18:32:05,713 - framework.myunit - INFO - opened the browser successed!
+2019-09-04 18:32:07,815 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-09-04 18:32:07,880 - framework.base_page - INFO - 清除文本框内容成功username
+2019-09-04 18:32:07,999 - framework.base_page - INFO - 输入的内容：13777466979
+2019-09-04 18:32:08,064 - framework.base_page - INFO - 清除文本框内容成功password
+2019-09-04 18:32:08,161 - framework.base_page - INFO - 输入的内容：test123456
+2019-09-04 18:32:12,216 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-09-04 18:32:12,216 - framework.myunit - INFO - ************************starting run test cases************************
+2019-09-04 18:32:13,938 - framework.base_page - INFO - https://vaccine-staging.zcygov.cn/items/175600205?searchType=1&type=vaccine&utm=a0004.2ef5001f.0.0.33d8ffd0ca0411e9af8ed36431cbf75c 地址正常打开
+2019-09-04 18:32:16,040 - framework.base_page - INFO - 点击元素成功//*[contains(text(),"立即下单")]
+2019-09-04 18:32:24,353 - framework.base_page - INFO - 点击元素成功select2-selection__placeholder
+2019-09-04 18:32:24,430 - framework.base_page - INFO - 点击元素成功//li[text()="席胜军"]
+2019-09-04 18:32:24,535 - framework.base_page - INFO - 点击元素成功//button[text()="提交"]
+2019-09-04 18:32:24,871 - framework.base_page - INFO - 点击元素成功submit
+2019-09-04 18:32:26,333 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-04 18:32:27,611 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-04 18:32:27,756 - framework.base_page - INFO - 点击元素成功//button[text()="提交审核意见"]
+2019-09-04 18:32:27,828 - framework.base_page - INFO - 点击元素成功submit
+2019-09-04 18:32:29,039 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-04 18:32:30,360 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-04 18:32:30,470 - framework.base_page - INFO - 点击元素成功//button[text()="提交审核意见"]
+2019-09-04 18:32:30,544 - framework.base_page - INFO - 点击元素成功submit
+2019-09-04 18:32:31,822 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-04 18:32:33,643 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-04 18:32:33,757 - framework.base_page - INFO - 点击元素成功//button[text()="提交审核意见"]
+2019-09-04 18:32:33,833 - framework.base_page - INFO - 点击元素成功submit
+2019-09-04 18:32:35,100 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-04 18:32:36,159 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-04 18:32:36,275 - framework.base_page - INFO - 点击元素成功//button[text()="确定订单"]
+2019-09-04 18:32:38,289 - framework.base_page - INFO - 刷新页面
+2019-09-04 18:32:39,424 - framework.base_page - INFO - 点击元素成功div.order-form-list-body > table > tbody > tr:nth-child(1) > td:nth-child(8)> a.js-buy-again
+2019-09-04 18:32:41,106 - framework.base_page - INFO - 获取元素内容: 甲型肝炎灭活疫苗0508
+2019-09-04 18:32:41,111 - framework.base_page - INFO - 当前窗口的title是: 我的购物车
+2019-09-04 18:32:41,409 - framework.base_page - INFO - 截图 [test_33346_pass.png] 成功保存在 [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\screenshots\pass]
+2019-09-04 18:32:41,409 - test_02_order.test_33346 - INFO - 运行成功：再次购买跳转成功
+2019-09-04 18:32:41,424 - framework.myunit - INFO - ************************test case run completed************************
+2019-09-04 18:32:43,661 - framework.myunit - INFO - quit the browser success!
+2019-09-04 18:32:46,102 - framework.driver - INFO - found the chrome driver [<selenium.webdriver.chrome.webdriver.WebDriver (session="e4f3ef90e033eada67f6c652347f138d")>] successed !
+2019-09-04 18:32:47,230 - framework.myunit - INFO - opened the browser successed!
+2019-09-04 18:32:49,536 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-09-04 18:32:49,598 - framework.base_page - INFO - 清除文本框内容成功username
+2019-09-04 18:32:49,716 - framework.base_page - INFO - 输入的内容：13777466979
+2019-09-04 18:32:49,780 - framework.base_page - INFO - 清除文本框内容成功password
+2019-09-04 18:32:49,877 - framework.base_page - INFO - 输入的内容：test123456
+2019-09-04 18:32:53,837 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-09-04 18:32:53,837 - framework.myunit - INFO - ************************starting run test cases************************
+2019-09-04 18:32:55,510 - framework.base_page - INFO - https://vaccine-staging.zcygov.cn/items/175600205?searchType=1&type=vaccine&utm=a0004.2ef5001f.0.0.33d8ffd0ca0411e9af8ed36431cbf75c 地址正常打开
+2019-09-04 18:32:57,606 - framework.base_page - INFO - 点击元素成功//*[contains(text(),"立即下单")]
+2019-09-04 18:33:06,364 - framework.base_page - INFO - 获取当前url https://vaccine-staging.zcygov.cn/buyer/purchase-process?purchaseId=1129000000000180784&tranMode=
+2019-09-04 18:33:06,371 - test_02_order.test_33418 - INFO - https://vaccine-staging.zcygov.cn/buyer/purchase-process?purchaseId=1129000000000180784&tranMode=
+2019-09-04 18:33:06,660 - framework.base_page - INFO - 截图 [test_33418_pass.png] 成功保存在 [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\screenshots\pass]
+2019-09-04 18:33:06,660 - test_02_order.test_33418 - INFO - 运行成功：生成预购单成功
+2019-09-04 18:33:06,676 - framework.myunit - INFO - ************************test case run completed************************
+2019-09-04 18:33:08,889 - framework.myunit - INFO - quit the browser success!
+2019-09-04 18:33:08,902 - framework.send_email - INFO - 添加附件
+2019-09-04 18:33:09,037 - framework.send_email - INFO - 连接成功
+2019-09-04 18:33:10,967 - framework.send_email - INFO - 2019-09-04-18_33_10----发送邮件成功

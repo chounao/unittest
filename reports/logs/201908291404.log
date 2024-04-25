@@ -1,0 +1,40 @@
+2019-08-29 14:04:22,700 - framework.testreport - INFO - successed to generate test report [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\testReport\report2019-08-29 14_04_22.html]
+2019-08-29 14:04:25,161 - framework.driver - INFO - found the chrome driver [<selenium.webdriver.chrome.webdriver.WebDriver (session="59a6f77c1502682ab6c81130c3a16dad")>] successed !
+2019-08-29 14:04:26,285 - framework.myunit - INFO - opened the browser successed!
+2019-08-29 14:04:28,238 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-08-29 14:04:28,303 - framework.base_page - INFO - 清除文本框内容成功username
+2019-08-29 14:04:28,414 - framework.base_page - INFO - 输入的内容：13777466979
+2019-08-29 14:04:28,484 - framework.base_page - INFO - 清除文本框内容成功password
+2019-08-29 14:04:28,595 - framework.base_page - INFO - 输入的内容：test123456
+2019-08-29 14:04:32,579 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-08-29 14:04:32,580 - framework.myunit - INFO - ************************starting run test cases************************
+2019-08-29 14:04:33,376 - framework.base_page - INFO - https://cart-staging.zcygov.cn/ 地址正常打开
+2019-08-29 14:04:36,547 - framework.base_page - INFO - 点击元素成功//div[@class="float-bar-action-del"]/a[text()="删除"]
+2019-08-29 14:04:39,620 - pageobjects.order_page - INFO - 删除商品成功
+2019-08-29 14:04:40,973 - framework.base_page - INFO - https://vaccine-staging.zcygov.cn/items/175600205?searchType=1&type=vaccine&utm=a0004.2ef5001f.0.0.33d8ffd0ca0411e9af8ed36431cbf75c 地址正常打开
+2019-08-29 14:04:41,539 - framework.base_page - INFO - 点击元素成功//*[contains(text(),"加入购物车")]
+2019-08-29 14:04:42,388 - framework.base_page - INFO - 点击元素成功//*[contains(text(),"查看购物车")]
+2019-08-29 14:04:52,796 - framework.base_page - INFO - 截图 [test_33305_fail.png] 成功保存在 [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\screenshots\fail]
+2019-08-29 14:04:52,812 - framework.myunit - INFO - ************************test case run completed************************
+2019-08-29 14:04:53,843 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-08-29 14:04:53,905 - framework.base_page - INFO - 清除文本框内容成功username
+2019-08-29 14:04:54,021 - framework.base_page - INFO - 输入的内容：13777466979
+2019-08-29 14:04:54,088 - framework.base_page - INFO - 清除文本框内容成功password
+2019-08-29 14:04:54,182 - framework.base_page - INFO - 输入的内容：test123456
+2019-08-29 14:04:55,648 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-08-29 14:04:55,648 - framework.myunit - INFO - ************************starting run test cases************************
+2019-08-29 14:04:56,014 - framework.base_page - INFO - https://cart-staging.zcygov.cn/ 地址正常打开
+2019-08-29 14:04:59,198 - framework.base_page - INFO - 点击元素成功//div[@class="float-bar-action-del"]/a[text()="删除"]
+2019-08-29 14:05:05,213 - pageobjects.order_page - INFO - 删除商品失败
+2019-08-29 14:05:05,580 - framework.base_page - INFO - https://vaccine-staging.zcygov.cn/items/175600205?searchType=1&type=vaccine&utm=a0004.2ef5001f.0.0.33d8ffd0ca0411e9af8ed36431cbf75c 地址正常打开
+2019-08-29 14:05:06,092 - framework.base_page - INFO - 点击元素成功//*[contains(text(),"加入购物车")]
+2019-08-29 14:05:16,272 - framework.base_page - ERROR - 查找元素超时://*[contains(text(),"查看购物车")]
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\Zcy_Vaccine\framework\base_page.py", line 109, in find_element
+    EC.visibility_of(self.driver.find_element_by_xpath(value)))
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-08-29 14:05:16,283 - framework.myunit - INFO - ************************test case run completed************************
+2019-08-29 14:05:19,047 - framework.myunit - INFO - quit the browser success!

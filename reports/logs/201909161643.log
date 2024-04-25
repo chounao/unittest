@@ -1,0 +1,46 @@
+2019-09-16 16:43:39,889 - framework.testreport - INFO - successed to generate test report [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\testReport\report2019-09-16 16_43_39.html]
+2019-09-16 16:43:42,357 - framework.driver - INFO - found the chrome driver [<selenium.webdriver.chrome.webdriver.WebDriver (session="d3c5f512db4a0a3177432df2325bcb22")>] successed !
+2019-09-16 16:43:42,357 - framework.myunit - INFO - opened the browser successed!
+2019-09-16 16:43:45,550 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-09-16 16:43:45,636 - framework.base_page - INFO - 清除文本框内容成功username
+2019-09-16 16:43:45,770 - framework.base_page - INFO - 输入的内容：13777466979
+2019-09-16 16:43:45,835 - framework.base_page - INFO - 清除文本框内容成功password
+2019-09-16 16:43:45,946 - framework.base_page - INFO - 输入的内容：test123456
+2019-09-16 16:43:52,367 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-09-16 16:43:52,368 - framework.myunit - INFO - ************************starting run test cases************************
+2019-09-16 16:43:56,132 - framework.base_page - INFO - https://cart-staging.zcygov.cn/ 地址正常打开
+2019-09-16 16:43:59,348 - framework.base_page - INFO - 点击元素成功//div[@class="float-bar-action-del"]/a[text()="删除"]
+2019-09-16 16:44:05,390 - pageobjects.order_page - INFO - 删除商品失败
+2019-09-16 16:44:07,699 - framework.base_page - INFO - https://vaccine-staging.zcygov.cn/items/175600205?searchType=1&type=vaccine&utm=a0004.2ef5001f.0.0.33d8ffd0ca0411e9af8ed36431cbf75c 地址正常打开
+2019-09-16 16:44:10,325 - framework.base_page - INFO - 点击元素成功//*[contains(text(),"加入购物车")]
+2019-09-16 16:44:15,702 - framework.base_page - INFO - 点击元素成功//*[contains(text(),"查看购物车")]
+2019-09-16 16:44:35,883 - framework.base_page - INFO - 点击元素成功select2-selection__placeholder
+2019-09-16 16:44:35,991 - framework.base_page - INFO - 点击元素成功//li[text()="席胜军"]
+2019-09-16 16:44:36,096 - framework.base_page - INFO - 点击元素成功//button[text()="提交"]
+2019-09-16 16:44:36,593 - framework.base_page - INFO - 点击元素成功submit
+2019-09-16 16:44:38,283 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-16 16:44:39,775 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-16 16:44:39,903 - framework.base_page - INFO - 点击元素成功//button[text()="提交审核意见"]
+2019-09-16 16:44:39,986 - framework.base_page - INFO - 点击元素成功submit
+2019-09-16 16:44:41,667 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-16 16:44:42,963 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-16 16:44:43,168 - framework.base_page - INFO - 点击元素成功//button[text()="提交审核意见"]
+2019-09-16 16:44:43,254 - framework.base_page - INFO - 点击元素成功submit
+2019-09-16 16:44:44,807 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-16 16:44:46,079 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-16 16:44:46,292 - framework.base_page - INFO - 点击元素成功//button[text()="提交审核意见"]
+2019-09-16 16:44:46,379 - framework.base_page - INFO - 点击元素成功submit
+2019-09-16 16:44:48,014 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-16 16:44:49,298 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-16 16:44:49,422 - framework.base_page - INFO - 点击元素成功//button[text()="确定订单"]
+2019-09-16 16:44:51,439 - framework.base_page - INFO - 刷新页面
+2019-09-16 16:44:52,727 - framework.base_page - INFO - 点击元素成功div.order-form-list-body > table > tbody > tr:nth-child(1) > td:nth-child(8)> a:nth-child(1)
+2019-09-16 16:44:52,791 - framework.base_page - INFO - 清除文本框内容成功js-cancel-reason
+2019-09-16 16:44:52,856 - framework.base_page - INFO - 输入的内容：测试环境取消订单
+2019-09-16 16:44:52,934 - framework.base_page - INFO - 点击元素成功//button[text()="确定"]
+2019-09-16 16:44:52,950 - framework.base_page - INFO - 刷新页面
+2019-09-16 16:44:54,654 - framework.base_page - INFO - 获取元素内容: 订单取消
+2019-09-16 16:44:54,910 - framework.base_page - INFO - 截图 [test_33312_pass.png] 成功保存在 [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\screenshots\pass]
+2019-09-16 16:44:54,911 - test_33312 - INFO - 运行成功：取消订单成功
+2019-09-16 16:44:54,923 - framework.myunit - INFO - ************************test case run completed************************
+2019-09-16 16:44:57,179 - framework.myunit - INFO - quit the browser success!

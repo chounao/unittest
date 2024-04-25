@@ -1,0 +1,19 @@
+2019-08-27 19:18:57,264 - framework.testreport - INFO - successed to generate test report [C:\Users\admin\PycharmProjects\Vaccine\reports\testReport\report2019-08-27 19_18_57.html]
+2019-08-27 19:19:00,212 - framework.driver - INFO - found the chrome driver [<selenium.webdriver.chrome.webdriver.WebDriver (session="076f2358d82b102dd86a81daaf7f461d")>] successed !
+2019-08-27 19:19:01,348 - test_33301_login_success - INFO - 启动浏览器成功
+2019-08-27 19:19:03,396 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-08-27 19:19:03,396 - test_33301_login_success - INFO - ************************starting run test cases************************
+2019-08-27 19:19:03,468 - framework.base_page - INFO - 清除文本框内容成功username
+2019-08-27 19:19:03,637 - framework.base_page - INFO - 输入的内容：13777466979
+2019-08-27 19:19:03,698 - framework.base_page - INFO - 清除文本框内容成功password
+2019-08-27 19:19:03,828 - framework.base_page - INFO - 输入的内容：test123456
+2019-08-27 19:19:09,321 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-08-27 19:19:09,326 - framework.base_page - INFO - 当前窗口的title是: 政采云，一站式政府采购云平台-引导页
+2019-08-27 19:19:09,929 - framework.base_page - INFO - 截图 [login_33301_pass.png] 成功保存在 [C:\Users\admin\PycharmProjects\Vaccine\reports\screenshots\pass]
+2019-08-27 19:19:09,930 - test_33301_login_success - INFO - 运行成功：用户名正确,密码正确,登录成功
+2019-08-27 19:19:17,164 - framework.base_page - INFO - 关闭浏览器
+2019-08-27 19:19:19,776 - framework.driver - INFO - found the chrome driver [<selenium.webdriver.chrome.webdriver.WebDriver (session="d49e21580d34ee4d2e1d05151aa6715b")>] successed !
+2019-08-27 19:19:20,911 - framework.myunit - INFO - opened the browser successed!
+2019-08-27 19:19:22,904 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-08-27 19:19:23,726 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-08-27 19:19:26,401 - framework.myunit - INFO - quit the browser success!

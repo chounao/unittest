@@ -1,0 +1,54 @@
+2019-09-16 16:40:07,158 - framework.testreport - INFO - successed to generate test report [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\testReport\report2019-09-16 16_40_07.html]
+2019-09-16 16:40:09,714 - framework.driver - INFO - found the chrome driver [<selenium.webdriver.chrome.webdriver.WebDriver (session="d99f5932d0051100ab5eda79c2b7e086")>] successed !
+2019-09-16 16:40:09,714 - framework.myunit - INFO - opened the browser successed!
+2019-09-16 16:40:11,834 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-09-16 16:40:11,903 - framework.base_page - INFO - 清除文本框内容成功username
+2019-09-16 16:40:12,020 - framework.base_page - INFO - 输入的内容：13777466979
+2019-09-16 16:40:12,086 - framework.base_page - INFO - 清除文本框内容成功password
+2019-09-16 16:40:12,196 - framework.base_page - INFO - 输入的内容：test123456
+2019-09-16 16:40:17,139 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-09-16 16:40:17,139 - framework.myunit - INFO - ************************starting run test cases************************
+2019-09-16 16:40:18,029 - framework.base_page - INFO - https://cart-staging.zcygov.cn/ 地址正常打开
+2019-09-16 16:40:24,073 - pageobjects.order_page - ERROR - 未找到全选按钮
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\Zcy_Vaccine\pageobjects\order_page.py", line 36, in clearcart
+    self.driver.find_element_by_xpath('//input[@class="ant-checkbox-input"]').click()
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@class="ant-checkbox-input"]"}
+  (Session info: chrome=77.0.3865.75)
+
+2019-09-16 16:40:25,027 - framework.base_page - INFO - https://vaccine-staging.zcygov.cn/items/175600205?searchType=1&type=vaccine&utm=a0004.2ef5001f.0.0.33d8ffd0ca0411e9af8ed36431cbf75c 地址正常打开
+2019-09-16 16:40:25,832 - framework.base_page - INFO - 点击元素成功//*[contains(text(),"加入购物车")]
+2019-09-16 16:40:31,161 - framework.base_page - INFO - 点击元素成功//*[contains(text(),"查看购物车")]
+2019-09-16 16:40:49,787 - framework.base_page - INFO - 点击元素成功select2-selection__placeholder
+2019-09-16 16:40:49,895 - framework.base_page - INFO - 点击元素成功//li[text()="席胜军"]
+2019-09-16 16:40:50,016 - framework.base_page - INFO - 点击元素成功//button[text()="提交"]
+2019-09-16 16:40:50,589 - framework.base_page - INFO - 点击元素成功submit
+2019-09-16 16:40:53,283 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-16 16:40:54,904 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-16 16:40:55,094 - framework.base_page - INFO - 点击元素成功//button[text()="提交审核意见"]
+2019-09-16 16:40:55,172 - framework.base_page - INFO - 点击元素成功submit
+2019-09-16 16:40:57,311 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-16 16:40:58,631 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-16 16:40:58,843 - framework.base_page - INFO - 点击元素成功//button[text()="提交审核意见"]
+2019-09-16 16:40:58,923 - framework.base_page - INFO - 点击元素成功submit
+2019-09-16 16:41:00,214 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-16 16:41:01,614 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-16 16:41:01,837 - framework.base_page - INFO - 点击元素成功//button[text()="提交审核意见"]
+2019-09-16 16:41:01,927 - framework.base_page - INFO - 点击元素成功submit
+2019-09-16 16:41:03,657 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-16 16:41:04,795 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-16 16:41:05,050 - framework.base_page - INFO - 点击元素成功//button[text()="确定订单"]
+2019-09-16 16:41:07,412 - framework.base_page - INFO - 刷新页面
+2019-09-16 16:41:08,856 - framework.base_page - INFO - 获取元素内容: 待供应商接单
+2019-09-16 16:41:09,136 - framework.base_page - INFO - 截图 [test_33310_pass.png] 成功保存在 [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\screenshots\pass]
+2019-09-16 16:41:09,137 - test_33310 - INFO - 运行成功：生成订单成功
+2019-09-16 16:41:09,150 - framework.myunit - INFO - ************************test case run completed************************
+2019-09-16 16:41:11,406 - framework.myunit - INFO - quit the browser success!

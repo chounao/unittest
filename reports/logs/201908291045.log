@@ -1,0 +1,18 @@
+2019-08-29 10:45:33,117 - framework.testreport - INFO - successed to generate test report [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\testReport\report2019-08-29 10_45_33.html]
+2019-08-29 10:45:35,581 - framework.driver - INFO - found the chrome driver [<selenium.webdriver.chrome.webdriver.WebDriver (session="0b2ba49b4fa61608994e38b6bc863bc2")>] successed !
+2019-08-29 10:45:36,704 - framework.myunit - INFO - opened the browser successed!
+2019-08-29 10:45:39,858 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-08-29 10:45:39,922 - framework.base_page - INFO - 清除文本框内容成功username
+2019-08-29 10:45:40,021 - framework.base_page - INFO - 输入的内容：13777466979
+2019-08-29 10:45:40,084 - framework.base_page - INFO - 清除文本框内容成功password
+2019-08-29 10:45:40,176 - framework.base_page - INFO - 输入的内容：test123456
+2019-08-29 10:45:44,106 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-08-29 10:45:44,106 - framework.myunit - INFO - ************************starting run test cases************************
+2019-08-29 10:45:45,101 - framework.base_page - INFO - https://cart-staging.zcygov.cn/ 地址正常打开
+2019-08-29 10:45:48,291 - framework.base_page - INFO - 点击元素成功float-bar-action-del
+2019-08-29 10:45:51,358 - framework.base_page - INFO - 点击元素成功//*[contains(text(),"确定")]
+2019-08-29 10:45:51,358 - pageobjects.order_page - INFO - 删除商品成功
+2019-08-29 10:45:51,662 - framework.base_page - INFO - 截图 [test_33324_pass.png] 成功保存在 [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\screenshots\pass]
+2019-08-29 10:45:51,662 - test_33324 - INFO - 清空购物车成功
+2019-08-29 10:45:51,692 - framework.myunit - INFO - ************************test case run completed************************
+2019-08-29 10:45:53,903 - framework.myunit - INFO - quit the browser success!

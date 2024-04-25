@@ -1,0 +1,28 @@
+2019-09-16 15:15:40,688 - framework.testreport - INFO - successed to generate test report [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\testReport\report2019-09-16 15_15_40.html]
+2019-09-16 15:15:43,241 - framework.driver - INFO - found the chrome driver [<selenium.webdriver.chrome.webdriver.WebDriver (session="847947923c889f737ac6d77751ba6ca5")>] successed !
+2019-09-16 15:15:43,241 - framework.myunit - INFO - opened the browser successed!
+2019-09-16 15:15:45,320 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-09-16 15:15:45,390 - framework.base_page - INFO - 清除文本框内容成功username
+2019-09-16 15:15:45,506 - framework.base_page - INFO - 输入的内容：13777466979
+2019-09-16 15:15:45,572 - framework.base_page - INFO - 清除文本框内容成功password
+2019-09-16 15:15:45,673 - framework.base_page - INFO - 输入的内容：test123456
+2019-09-16 15:15:50,486 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-09-16 15:15:50,486 - framework.myunit - INFO - ************************starting run test cases************************
+2019-09-16 15:15:51,407 - framework.base_page - INFO - https://cart-staging.zcygov.cn/ 地址正常打开
+2019-09-16 15:15:54,587 - framework.base_page - INFO - 点击元素成功//div[@class="float-bar-action-del"]/a[text()="删除"]
+2019-09-16 15:16:00,635 - pageobjects.order_page - INFO - 删除商品失败
+2019-09-16 15:16:01,558 - framework.base_page - INFO - https://vaccine-staging.zcygov.cn/items/175600205?searchType=1&type=vaccine&utm=a0004.2ef5001f.0.0.33d8ffd0ca0411e9af8ed36431cbf75c 地址正常打开
+2019-09-16 15:16:02,723 - framework.base_page - INFO - 点击元素成功//*[contains(text(),"加入购物车")]
+2019-09-16 15:16:13,387 - framework.base_page - ERROR - 查找元素超时://*[contains(text(),"查看购物车")]
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\Zcy_Vaccine\framework\base_page.py", line 109, in find_element
+    EC.visibility_of(self.driver.find_element_by_xpath(value)))
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-09-16 15:16:13,413 - framework.myunit - INFO - ************************test case run completed************************
+2019-09-16 15:16:16,187 - framework.myunit - INFO - quit the browser success!
+2019-09-16 15:16:16,195 - framework.send_email - INFO - 添加附件
+2019-09-16 15:16:16,294 - framework.send_email - INFO - 连接成功
+2019-09-16 15:16:17,508 - framework.send_email - INFO - 2019-09-16-15_16_17----发送邮件成功

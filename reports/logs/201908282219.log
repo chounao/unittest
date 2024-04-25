@@ -1,0 +1,129 @@
+2019-08-28 22:19:39,223 - framework.testreport - INFO - successed to generate test report [C:\Users\admin\PycharmProjects\Vaccine\reports\testReport\report2019-08-28 22_19_39.html]
+2019-08-28 22:19:42,019 - framework.driver - INFO - found the chrome driver [<selenium.webdriver.chrome.webdriver.WebDriver (session="cc0e69574ab6db9b4a537c39666a185c")>] successed !
+2019-08-28 22:19:43,147 - framework.myunit - INFO - opened the browser successed!
+2019-08-28 22:19:56,300 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-08-28 22:19:56,377 - framework.base_page - INFO - 清除文本框内容成功username
+2019-08-28 22:19:56,559 - framework.base_page - INFO - 输入的内容：13777466979
+2019-08-28 22:19:56,643 - framework.base_page - INFO - 清除文本框内容成功password
+2019-08-28 22:19:56,762 - framework.base_page - INFO - 输入的内容：test123456
+2019-08-28 22:20:17,938 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-08-28 22:20:17,939 - framework.myunit - INFO - ************************starting run test cases************************
+2019-08-28 22:20:27,179 - framework.base_page - INFO - https://cart-staging.zcygov.cn/ 地址正常打开
+2019-08-28 22:20:33,237 - pageobjects.order_page - ERROR - 未查找到该元素
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\Vaccine\pageobjects\order_page.py", line 35, in clearcart
+    self.driver.find_element_by_xpath('//input[@class="ant-checkbox-input"]').click()
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@class="ant-checkbox-input"]"}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+2019-08-28 22:20:44,648 - framework.base_page - INFO - https://vaccine-staging.zcygov.cn/items/175600205?searchType=1&type=vaccine&utm=a0004.2ef5001f.0.0.4b7da7b0c97a11e99bbdad298504c04b 地址正常打开
+2019-08-28 22:20:44,680 - framework.base_page - ERROR - 查找元素超时://button[(text()="加入购物车"）]
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\Vaccine\framework\base_page.py", line 109, in find_element
+    EC.visibility_of(self.driver.find_element_by_xpath(value)))
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSelectorException: Message: invalid selector: Unable to locate an element with the xpath expression //button[(text()="加入购物车"）] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[(text()="加入购物车"）]' is not a valid XPath expression.
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+2019-08-28 22:20:44,682 - pageobjects.order_page - ERROR - 未找到加入购物车按钮
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\Vaccine\pageobjects\order_page.py", line 56, in addtocart
+    self.click_addtocart()
+  File "C:\Users\admin\PycharmProjects\Vaccine\pageobjects\order_page.py", line 67, in click_addtocart
+    BasePage(self.driver).scrolls(OrderData.addcart_selectors)
+  File "C:\Users\admin\PycharmProjects\Vaccine\framework\base_page.py", line 339, in scrolls
+    self.find_element(selector)
+  File "C:\Users\admin\PycharmProjects\Vaccine\framework\base_page.py", line 116, in find_element
+    raise e
+  File "C:\Users\admin\PycharmProjects\Vaccine\framework\base_page.py", line 109, in find_element
+    EC.visibility_of(self.driver.find_element_by_xpath(value)))
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSelectorException: Message: invalid selector: Unable to locate an element with the xpath expression //button[(text()="加入购物车"）] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[(text()="加入购物车"）]' is not a valid XPath expression.
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+2019-08-28 22:20:45,058 - framework.base_page - INFO - 截图 [test_33304_fail.png] 成功保存在 [C:\Users\admin\PycharmProjects\Vaccine\reports\screenshots\fail]
+2019-08-28 22:20:45,074 - framework.myunit - INFO - ************************test case run completed************************
+2019-08-28 22:20:46,475 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-08-28 22:20:46,553 - framework.base_page - INFO - 清除文本框内容成功username
+2019-08-28 22:20:46,704 - framework.base_page - INFO - 输入的内容：13777466979
+2019-08-28 22:20:46,783 - framework.base_page - INFO - 清除文本框内容成功password
+2019-08-28 22:20:46,907 - framework.base_page - INFO - 输入的内容：test123456
+2019-08-28 22:20:49,018 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-08-28 22:20:49,018 - framework.myunit - INFO - ************************starting run test cases************************
+2019-08-28 22:20:49,968 - framework.base_page - INFO - https://cart-staging.zcygov.cn/ 地址正常打开
+2019-08-28 22:20:53,177 - framework.base_page - INFO - 点击元素成功float-bar-action-del
+2019-08-28 22:20:53,293 - framework.base_page - INFO - 点击元素成功//button[@class="ant-btn ant-btn-primary ant-btn-sm ant-btn-two-chinese-chars"]
+2019-08-28 22:20:53,293 - pageobjects.order_page - INFO - 删除商品成功
+2019-08-28 22:21:05,389 - framework.base_page - INFO - https://vaccine-staging.zcygov.cn/items/175600205?searchType=1&type=vaccine&utm=a0004.2ef5001f.0.0.4b7da7b0c97a11e99bbdad298504c04b 地址正常打开
+2019-08-28 22:21:05,504 - framework.base_page - ERROR - 查找元素超时://button[(text()="加入购物车"）]
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\Vaccine\framework\base_page.py", line 109, in find_element
+    EC.visibility_of(self.driver.find_element_by_xpath(value)))
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSelectorException: Message: invalid selector: Unable to locate an element with the xpath expression //button[(text()="加入购物车"）] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[(text()="加入购物车"）]' is not a valid XPath expression.
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+2019-08-28 22:21:05,505 - pageobjects.order_page - ERROR - 未找到加入购物车按钮
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\Vaccine\pageobjects\order_page.py", line 56, in addtocart
+    self.click_addtocart()
+  File "C:\Users\admin\PycharmProjects\Vaccine\pageobjects\order_page.py", line 67, in click_addtocart
+    BasePage(self.driver).scrolls(OrderData.addcart_selectors)
+  File "C:\Users\admin\PycharmProjects\Vaccine\framework\base_page.py", line 339, in scrolls
+    self.find_element(selector)
+  File "C:\Users\admin\PycharmProjects\Vaccine\framework\base_page.py", line 116, in find_element
+    raise e
+  File "C:\Users\admin\PycharmProjects\Vaccine\framework\base_page.py", line 109, in find_element
+    EC.visibility_of(self.driver.find_element_by_xpath(value)))
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSelectorException: Message: invalid selector: Unable to locate an element with the xpath expression //button[(text()="加入购物车"）] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[(text()="加入购物车"）]' is not a valid XPath expression.
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+2019-08-28 22:21:06,592 - framework.base_page - INFO - 截图 [test_33304_fail.png] 成功保存在 [C:\Users\admin\PycharmProjects\Vaccine\reports\screenshots\fail]
+2019-08-28 22:21:06,609 - framework.myunit - INFO - ************************test case run completed************************
+2019-08-28 22:21:12,181 - framework.myunit - INFO - quit the browser success!

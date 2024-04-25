@@ -1,0 +1,20 @@
+2019-08-30 17:54:22,840 - framework.testreport - INFO - successed to generate test report [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\testReport\report2019-08-30 17_54_22.html]
+2019-08-30 17:54:25,679 - framework.driver - INFO - found the chrome driver [<selenium.webdriver.chrome.webdriver.WebDriver (session="3a1a92bb81e8acfd919dbfe3956ceace")>] successed !
+2019-08-30 17:54:26,824 - framework.myunit - INFO - opened the browser successed!
+2019-08-30 17:54:29,360 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-08-30 17:54:29,446 - framework.base_page - INFO - 清除文本框内容成功username
+2019-08-30 17:54:29,630 - framework.base_page - INFO - 输入的内容：13777466979
+2019-08-30 17:54:29,723 - framework.base_page - INFO - 清除文本框内容成功password
+2019-08-30 17:54:29,876 - framework.base_page - INFO - 输入的内容：test123456
+2019-08-30 17:54:34,489 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-08-30 17:54:34,489 - framework.myunit - INFO - ************************starting run test cases************************
+2019-08-30 17:54:42,974 - framework.base_page - INFO - https://staging.zcygov.cn/buyer/vaccine-orders 地址正常打开
+2019-08-30 17:54:43,079 - framework.base_page - INFO - 点击元素成功div.order-form-list-body > table > tbody > tr:nth-child(1) > td:nth-child(8)> a:nth-child(1)
+2019-08-30 17:54:43,146 - framework.base_page - INFO - 清除文本框内容成功js-cancel-reason
+2019-08-30 17:54:43,231 - framework.base_page - INFO - 输入的内容：测试环境取消订单
+2019-08-30 17:54:43,319 - framework.base_page - INFO - 点击元素成功//button[text()="确定"]
+2019-08-30 17:54:43,343 - framework.base_page - INFO - 刷新页面
+2019-08-30 17:54:44,947 - framework.base_page - INFO - 获取元素内容: 订单取消
+2019-08-30 17:54:45,220 - framework.base_page - INFO - 截图 [test_33312_pass.png] 成功保存在 [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\screenshots\pass]
+2019-08-30 17:54:45,237 - framework.myunit - INFO - ************************test case run completed************************
+2019-08-30 17:54:47,573 - framework.myunit - INFO - quit the browser success!

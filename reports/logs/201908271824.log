@@ -1,0 +1,21 @@
+2019-08-27 18:24:42,969 - framework.testreport - INFO - successed to generate test report [C:\Users\admin\PycharmProjects\Vaccine\reports\testReport\report2019-08-27 18_24_42.html]
+2019-08-27 18:24:45,808 - framework.driver - INFO - found the chrome driver [<selenium.webdriver.chrome.webdriver.WebDriver (session="8377179801fea14896bdae2ad2c7058b")>] successed !
+2019-08-27 18:24:46,945 - test_33301_login_success - INFO - 启动浏览器成功
+2019-08-27 18:24:49,044 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-08-27 18:24:49,044 - test_33301_login_success - INFO - ************************starting run test cases************************
+2019-08-27 18:24:49,075 - framework.base_page - INFO - 元素查找成功:username
+2019-08-27 18:24:49,094 - framework.base_page - INFO - 元素查找成功:username
+2019-08-27 18:24:49,111 - framework.base_page - INFO - 清除文本框内容成功username
+2019-08-27 18:24:49,249 - framework.base_page - INFO - 输入的内容：13777466979
+2019-08-27 18:24:49,275 - framework.base_page - INFO - 元素查找成功:password
+2019-08-27 18:24:49,292 - framework.base_page - INFO - 元素查找成功:password
+2019-08-27 18:24:49,313 - framework.base_page - INFO - 清除文本框内容成功password
+2019-08-27 18:24:49,406 - framework.base_page - INFO - 输入的内容：test123456
+2019-08-27 18:24:49,433 - framework.base_page - INFO - 元素查找成功://button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-08-27 18:24:58,727 - framework.testreport - INFO - successed to generate test report [C:\Users\admin\PycharmProjects\Vaccine\reports\testReport\report2019-08-27 18_24_58.html]
+2019-08-27 18:25:01,904 - framework.driver - INFO - found the chrome driver [<selenium.webdriver.chrome.webdriver.WebDriver (session="dbfeebea6a01b83f245975de7c009281")>] successed !
+2019-08-27 18:25:03,046 - test_33301_login_success - INFO - 启动浏览器成功
+2019-08-27 18:25:05,840 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-08-27 18:25:05,840 - test_33301_login_success - INFO - ************************starting run test cases************************
+2019-08-27 18:25:30,506 - framework.base_page - INFO - 元素查找成功:username
+2019-08-27 18:25:49,245 - framework.base_page - INFO - 元素查找成功:username

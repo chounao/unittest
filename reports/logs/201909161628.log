@@ -1,0 +1,48 @@
+2019-09-16 16:28:36,669 - framework.testreport - INFO - successed to generate test report [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\testReport\report2019-09-16 16_28_36.html]
+2019-09-16 16:28:39,142 - framework.driver - INFO - found the chrome driver [<selenium.webdriver.chrome.webdriver.WebDriver (session="efd2a7a75a5efc62f676408928e6639d")>] successed !
+2019-09-16 16:28:39,142 - framework.myunit - INFO - opened the browser successed!
+2019-09-16 16:28:42,723 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-09-16 16:28:42,790 - framework.base_page - INFO - 清除文本框内容成功username
+2019-09-16 16:28:42,924 - framework.base_page - INFO - 输入的内容：13777466979
+2019-09-16 16:28:42,997 - framework.base_page - INFO - 清除文本框内容成功password
+2019-09-16 16:28:43,125 - framework.base_page - INFO - 输入的内容：test123456
+2019-09-16 16:28:47,229 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-09-16 16:28:47,229 - framework.myunit - INFO - ************************starting run test cases************************
+2019-09-16 16:28:48,232 - framework.base_page - INFO - https://cart-staging.zcygov.cn/ 地址正常打开
+2019-09-16 16:28:51,442 - framework.base_page - INFO - 点击元素成功//div[@class="float-bar-action-del"]/a[text()="删除"]
+2019-09-16 16:28:57,447 - pageobjects.order_page - INFO - 删除商品失败
+2019-09-16 16:28:58,475 - framework.base_page - INFO - https://vaccine-staging.zcygov.cn/items/175600205?searchType=1&type=vaccine&utm=a0004.2ef5001f.0.0.33d8ffd0ca0411e9af8ed36431cbf75c 地址正常打开
+2019-09-16 16:28:59,199 - framework.base_page - INFO - 点击元素成功//*[contains(text(),"加入购物车")]
+2019-09-16 16:29:01,090 - framework.base_page - INFO - 点击元素成功//*[contains(text(),"查看购物车")]
+2019-09-16 16:29:20,237 - pageobjects.order_page - ERROR - 未找到预购单按钮
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\Zcy_Vaccine\pageobjects\order_page.py", line 95, in add_initateorder
+    self.driver.find_element_by_xpath('//button[@class="ant-btn ant-btn-primary ant-btn-lg" '
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=77.0.3865.75)
+
+2019-09-16 16:29:33,296 - framework.base_page - ERROR - 查找元素超时:添加发票
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\Zcy_Vaccine\framework\base_page.py", line 100, in find_element
+    EC.visibility_of(self.driver.find_element_by_link_text(value)))
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 428, in find_element_by_link_text
+    return self.find_element(by=By.LINK_TEXT, value=link_text)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"link text","selector":"添加发票"}
+  (Session info: chrome=77.0.3865.75)
+
+2019-09-16 16:29:33,326 - framework.myunit - INFO - ************************test case run completed************************
+2019-09-16 16:29:36,111 - framework.myunit - INFO - quit the browser success!

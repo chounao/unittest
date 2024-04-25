@@ -1,0 +1,60 @@
+2019-08-29 10:58:02,258 - framework.testreport - INFO - successed to generate test report [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\testReport\report2019-08-29 10_58_02.html]
+2019-08-29 10:58:04,825 - framework.driver - INFO - found the chrome driver [<selenium.webdriver.chrome.webdriver.WebDriver (session="1c18fc5329c1440be0575f6d7554a735")>] successed !
+2019-08-29 10:58:05,947 - framework.myunit - INFO - opened the browser successed!
+2019-08-29 10:58:08,754 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-08-29 10:58:08,818 - framework.base_page - INFO - 清除文本框内容成功username
+2019-08-29 10:58:08,924 - framework.base_page - INFO - 输入的内容：13777466979
+2019-08-29 10:58:08,986 - framework.base_page - INFO - 清除文本框内容成功password
+2019-08-29 10:58:09,087 - framework.base_page - INFO - 输入的内容：test123456
+2019-08-29 10:58:12,979 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-08-29 10:58:12,979 - framework.myunit - INFO - ************************starting run test cases************************
+2019-08-29 10:58:13,815 - framework.base_page - INFO - https://cart-staging.zcygov.cn/ 地址正常打开
+2019-08-29 10:58:16,996 - framework.base_page - INFO - 点击元素成功//div[@class="float-bar-action-del"]/a[text()="删除"]
+2019-08-29 10:58:20,052 - framework.base_page - ERROR - 查找元素超时://div[@class="ant-popover-buttons"]/*[contains(text(),"确定")]
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\Zcy_Vaccine\framework\base_page.py", line 109, in find_element
+    EC.visibility_of(self.driver.find_element_by_xpath(value)))
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class="ant-popover-buttons"]/*[contains(text(),"确定")]"}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+2019-08-29 10:58:20,053 - pageobjects.order_page - INFO - 删除商品失败
+2019-08-29 10:58:20,298 - framework.base_page - INFO - 截图 [test_33324_fail.png] 成功保存在 [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\screenshots\fail]
+2019-08-29 10:58:20,314 - framework.myunit - INFO - ************************test case run completed************************
+2019-08-29 10:58:21,285 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-08-29 10:58:21,340 - framework.base_page - INFO - 清除文本框内容成功username
+2019-08-29 10:58:21,455 - framework.base_page - INFO - 输入的内容：13777466979
+2019-08-29 10:58:21,515 - framework.base_page - INFO - 清除文本框内容成功password
+2019-08-29 10:58:21,601 - framework.base_page - INFO - 输入的内容：test123456
+2019-08-29 10:58:23,389 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-08-29 10:58:23,389 - framework.myunit - INFO - ************************starting run test cases************************
+2019-08-29 10:58:23,684 - framework.base_page - INFO - https://cart-staging.zcygov.cn/ 地址正常打开
+2019-08-29 10:58:26,840 - framework.base_page - INFO - 点击元素成功//div[@class="float-bar-action-del"]/a[text()="删除"]
+2019-08-29 10:58:29,898 - framework.base_page - ERROR - 查找元素超时://div[@class="ant-popover-buttons"]/*[contains(text(),"确定")]
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\Zcy_Vaccine\framework\base_page.py", line 109, in find_element
+    EC.visibility_of(self.driver.find_element_by_xpath(value)))
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class="ant-popover-buttons"]/*[contains(text(),"确定")]"}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+2019-08-29 10:58:29,898 - pageobjects.order_page - INFO - 删除商品失败
+2019-08-29 10:58:30,163 - framework.base_page - INFO - 截图 [test_33324_fail.png] 成功保存在 [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\screenshots\fail]
+2019-08-29 10:58:30,177 - framework.myunit - INFO - ************************test case run completed************************
+2019-08-29 10:58:32,876 - framework.myunit - INFO - quit the browser success!

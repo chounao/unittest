@@ -1,0 +1,24 @@
+2019-09-16 16:19:01,564 - framework.testreport - INFO - successed to generate test report [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\testReport\report2019-09-16 16_19_01.html]
+2019-09-16 16:19:04,031 - framework.driver - INFO - found the chrome driver [<selenium.webdriver.chrome.webdriver.WebDriver (session="9e8506fe251b51fad73083ccc977f599")>] successed !
+2019-09-16 16:19:04,031 - framework.myunit - INFO - opened the browser successed!
+2019-09-16 16:19:08,048 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-09-16 16:19:08,117 - framework.base_page - INFO - 清除文本框内容成功username
+2019-09-16 16:19:08,232 - framework.base_page - INFO - 输入的内容：13777466979
+2019-09-16 16:19:08,303 - framework.base_page - INFO - 清除文本框内容成功password
+2019-09-16 16:19:08,411 - framework.base_page - INFO - 输入的内容：test123456
+2019-09-16 16:19:12,698 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-09-16 16:19:12,698 - framework.myunit - INFO - ************************starting run test cases************************
+2019-09-16 16:19:13,413 - framework.base_page - INFO - https://cart-staging.zcygov.cn/ 地址正常打开
+2019-09-16 16:19:16,619 - framework.base_page - INFO - 点击元素成功//div[@class="float-bar-action-del"]/a[text()="删除"]
+2019-09-16 16:19:22,648 - pageobjects.order_page - INFO - 删除商品失败
+2019-09-16 16:19:23,566 - framework.base_page - INFO - https://vaccine-staging.zcygov.cn/items/175600205?searchType=1&type=vaccine&utm=a0004.2ef5001f.0.0.33d8ffd0ca0411e9af8ed36431cbf75c 地址正常打开
+2019-09-16 16:19:24,177 - framework.base_page - INFO - 点击元素成功//*[contains(text(),"加入购物车")]
+2019-09-16 16:19:25,542 - framework.base_page - INFO - 点击元素成功//*[contains(text(),"查看购物车")]
+2019-09-16 16:19:42,470 - framework.base_page - INFO - 点击元素成功select2-selection__placeholder
+2019-09-16 16:19:42,560 - framework.base_page - INFO - 点击元素成功//li[text()="席胜军"]
+2019-09-16 16:19:42,667 - framework.base_page - INFO - 点击元素成功//button[text()="提交"]
+2019-09-16 16:19:43,107 - framework.base_page - INFO - 点击元素成功submit
+2019-09-16 16:19:44,498 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-16 16:19:47,567 - framework.base_page - INFO - 点击元素成功shrink-png
+2019-09-16 16:19:50,664 - framework.myunit - INFO - ************************test case run completed************************
+2019-09-16 16:19:54,283 - framework.myunit - INFO - quit the browser success!

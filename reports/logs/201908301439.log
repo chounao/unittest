@@ -1,0 +1,102 @@
+2019-08-30 14:39:08,003 - framework.testreport - INFO - successed to generate test report [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\testReport\report2019-08-30 14_39_08.html]
+2019-08-30 14:39:10,756 - framework.driver - INFO - found the chrome driver [<selenium.webdriver.chrome.webdriver.WebDriver (session="f024f1b669512133cc05ca56e480bfc6")>] successed !
+2019-08-30 14:39:11,892 - framework.myunit - INFO - opened the browser successed!
+2019-08-30 14:39:14,080 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-08-30 14:39:14,167 - framework.base_page - INFO - 清除文本框内容成功username
+2019-08-30 14:39:14,355 - framework.base_page - INFO - 输入的内容：13777466979
+2019-08-30 14:39:14,431 - framework.base_page - INFO - 清除文本框内容成功password
+2019-08-30 14:39:14,546 - framework.base_page - INFO - 输入的内容：test123456
+2019-08-30 14:39:18,699 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-08-30 14:39:18,700 - framework.myunit - INFO - ************************starting run test cases************************
+2019-08-30 14:39:19,650 - framework.base_page - INFO - https://cart-staging.zcygov.cn/ 地址正常打开
+2019-08-30 14:39:25,695 - pageobjects.order_page - ERROR - 未找到全选按钮
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\Zcy_Vaccine\pageobjects\order_page.py", line 35, in clearcart
+    self.driver.find_element_by_xpath('//input[@class="ant-checkbox-input"]').click()
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@class="ant-checkbox-input"]"}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+2019-08-30 14:39:26,676 - framework.base_page - INFO - https://vaccine-staging.zcygov.cn/items/175600205?searchType=1&type=vaccine&utm=a0004.2ef5001f.0.0.33d8ffd0ca0411e9af8ed36431cbf75c 地址正常打开
+2019-08-30 14:39:29,798 - framework.base_page - INFO - 点击元素成功//*[contains(text(),"加入购物车")]
+2019-08-30 14:39:31,238 - framework.base_page - INFO - 点击元素成功//*[contains(text(),"查看购物车")]
+2019-08-30 14:39:50,092 - framework.base_page - INFO - 点击元素成功select2-selection__placeholder
+2019-08-30 14:39:50,186 - framework.base_page - INFO - 点击元素成功//li[text()="席胜军"]
+2019-08-30 14:39:50,325 - framework.base_page - INFO - 点击元素成功//button[text()="提交"]
+2019-08-30 14:39:50,791 - framework.base_page - INFO - 点击元素成功submit
+2019-08-30 14:39:52,701 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-08-30 14:39:52,718 - framework.base_page - ERROR - 查找元素超时:div.pur-list-body>tbody>tr:nth-child(1)>td:nth-child(7)>a: nth - child(1)
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\Zcy_Vaccine\framework\base_page.py", line 106, in find_element
+    EC.visibility_of(self.driver.find_element_by_css_selector(value)))
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 598, in find_element_by_css_selector
+    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSelectorException: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+2019-08-30 14:39:52,737 - framework.myunit - INFO - ************************test case run completed************************
+2019-08-30 14:39:54,830 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-08-30 14:39:54,905 - framework.base_page - INFO - 清除文本框内容成功username
+2019-08-30 14:39:55,062 - framework.base_page - INFO - 输入的内容：13777466979
+2019-08-30 14:39:55,153 - framework.base_page - INFO - 清除文本框内容成功password
+2019-08-30 14:39:55,294 - framework.base_page - INFO - 输入的内容：test123456
+2019-08-30 14:39:57,028 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-08-30 14:39:57,028 - framework.myunit - INFO - ************************starting run test cases************************
+2019-08-30 14:39:57,610 - framework.base_page - INFO - https://cart-staging.zcygov.cn/ 地址正常打开
+2019-08-30 14:40:03,638 - pageobjects.order_page - ERROR - 未找到全选按钮
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\Zcy_Vaccine\pageobjects\order_page.py", line 35, in clearcart
+    self.driver.find_element_by_xpath('//input[@class="ant-checkbox-input"]').click()
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@class="ant-checkbox-input"]"}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+2019-08-30 14:40:04,404 - framework.base_page - INFO - https://vaccine-staging.zcygov.cn/items/175600205?searchType=1&type=vaccine&utm=a0004.2ef5001f.0.0.33d8ffd0ca0411e9af8ed36431cbf75c 地址正常打开
+2019-08-30 14:40:07,544 - framework.base_page - INFO - 点击元素成功//*[contains(text(),"加入购物车")]
+2019-08-30 14:40:08,885 - framework.base_page - INFO - 点击元素成功//*[contains(text(),"查看购物车")]
+2019-08-30 14:40:22,639 - framework.base_page - INFO - 点击元素成功select2-selection__placeholder
+2019-08-30 14:40:22,735 - framework.base_page - INFO - 点击元素成功//li[text()="席胜军"]
+2019-08-30 14:40:22,858 - framework.base_page - INFO - 点击元素成功//button[text()="提交"]
+2019-08-30 14:40:23,326 - framework.base_page - INFO - 点击元素成功submit
+2019-08-30 14:40:25,128 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-08-30 14:40:25,142 - framework.base_page - ERROR - 查找元素超时:div.pur-list-body>tbody>tr:nth-child(1)>td:nth-child(7)>a: nth - child(1)
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\Zcy_Vaccine\framework\base_page.py", line 106, in find_element
+    EC.visibility_of(self.driver.find_element_by_css_selector(value)))
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 598, in find_element_by_css_selector
+    return self.find_element(by=By.CSS_SELECTOR, value=css_selector)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSelectorException: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+2019-08-30 14:40:25,158 - framework.myunit - INFO - ************************test case run completed************************
+2019-08-30 14:40:29,123 - framework.myunit - INFO - quit the browser success!

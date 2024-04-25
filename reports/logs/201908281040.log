@@ -1,0 +1,16 @@
+2019-08-28 10:40:07,397 - framework.testreport - INFO - successed to generate test report [C:\Users\admin\PycharmProjects\Vaccine\reports\testReport\report2019-08-28 10_40_07.html]
+2019-08-28 10:40:10,809 - framework.driver - INFO - found the chrome driver [<selenium.webdriver.chrome.webdriver.WebDriver (session="fe3361f47dd82b656abda7e6be30e47c")>] successed !
+2019-08-28 10:40:11,942 - framework.myunit - INFO - opened the browser successed!
+2019-08-28 10:40:14,136 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-08-28 10:40:14,213 - framework.base_page - INFO - 清除文本框内容成功username
+2019-08-28 10:40:14,350 - framework.base_page - INFO - 输入的内容：13777466979
+2019-08-28 10:40:14,427 - framework.base_page - INFO - 清除文本框内容成功password
+2019-08-28 10:40:14,528 - framework.base_page - INFO - 输入的内容：test123456
+2019-08-28 10:40:18,659 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-08-28 10:40:18,660 - framework.myunit - INFO - ************************starting run test cases************************
+2019-08-28 10:40:36,606 - framework.base_page - INFO - 点击元素成功icon-maichang
+2019-08-28 10:40:36,610 - framework.base_page - INFO - 当前窗口的title是: 二类疫苗
+2019-08-28 10:40:36,921 - framework.base_page - INFO - 截图 [test_33302_pass.png] 成功保存在 [C:\Users\admin\PycharmProjects\Vaccine\reports\screenshots\pass]
+2019-08-28 10:40:36,921 - test_33302 - INFO - 运行成功：进入疫苗馆
+2019-08-28 10:40:36,937 - framework.myunit - INFO - ************************test case run completed************************
+2019-08-28 10:40:39,204 - framework.myunit - INFO - quit the browser success!

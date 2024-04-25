@@ -1,0 +1,14 @@
+2019-08-27 18:26:43,436 - framework.testreport - INFO - successed to generate test report [C:\Users\admin\PycharmProjects\Vaccine\reports\testReport\report2019-08-27 18_26_43.html]
+2019-08-27 18:26:46,131 - framework.driver - INFO - found the chrome driver [<selenium.webdriver.chrome.webdriver.WebDriver (session="d0754d52a4f4e36d18a5d64cc125220e")>] successed !
+2019-08-27 18:26:47,259 - test_33301_login_success - INFO - 启动浏览器成功
+2019-08-27 18:26:49,376 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-08-27 18:26:49,376 - test_33301_login_success - INFO - ************************starting run test cases************************
+2019-08-27 18:26:49,447 - framework.base_page - INFO - 清除文本框内容成功username
+2019-08-27 18:26:49,606 - framework.base_page - INFO - 输入的内容：13777466979
+2019-08-27 18:26:49,689 - framework.base_page - INFO - 清除文本框内容成功password
+2019-08-27 18:26:49,788 - framework.base_page - INFO - 输入的内容：test123456
+2019-08-27 18:26:53,717 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-08-27 18:26:53,723 - framework.base_page - INFO - 当前窗口的title是: 政采云，一站式政府采购云平台-引导页
+2019-08-27 18:26:54,125 - framework.base_page - INFO - 截图 [login_33301_pass.png] 成功保存在 [C:\Users\admin\PycharmProjects\Vaccine\reports\screenshots\pass]
+2019-08-27 18:26:54,125 - test_33301_login_success - INFO - 运行成功：用户名正确,密码正确,登录成功
+2019-08-27 18:27:01,378 - framework.base_page - INFO - 关闭浏览器

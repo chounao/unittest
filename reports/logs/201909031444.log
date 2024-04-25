@@ -1,0 +1,48 @@
+2019-09-03 14:44:25,839 - framework.testreport - INFO - successed to generate test report [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\testReport\report2019-09-03 14_44_25.html]
+2019-09-03 14:44:28,404 - framework.driver - INFO - found the chrome driver [<selenium.webdriver.chrome.webdriver.WebDriver (session="facb65ccbfbec9653b36bd8f3a2f1b66")>] successed !
+2019-09-03 14:44:29,530 - framework.myunit - INFO - opened the browser successed!
+2019-09-03 14:44:31,553 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-09-03 14:44:31,625 - framework.base_page - INFO - 清除文本框内容成功username
+2019-09-03 14:44:31,736 - framework.base_page - INFO - 输入的内容：13777466979
+2019-09-03 14:44:31,800 - framework.base_page - INFO - 清除文本框内容成功password
+2019-09-03 14:44:31,889 - framework.base_page - INFO - 输入的内容：test123456
+2019-09-03 14:44:36,050 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-09-03 14:44:36,050 - framework.myunit - INFO - ************************starting run test cases************************
+2019-09-03 14:44:42,842 - framework.base_page - INFO - https://staging.zcygov.cn/buyer/vaccine-orders 地址正常打开
+2019-09-03 14:44:42,916 - framework.base_page - INFO - 点击元素成功header-right-user-avatar
+2019-09-03 14:44:44,489 - framework.base_page - INFO - 点击元素成功logout
+2019-09-03 14:44:49,552 - framework.base_page - INFO - 清除文本框内容成功username
+2019-09-03 14:44:49,648 - framework.base_page - INFO - 输入的内容：SINOVAC
+2019-09-03 14:44:49,707 - framework.base_page - INFO - 清除文本框内容成功password
+2019-09-03 14:44:49,792 - framework.base_page - INFO - 输入的内容：test123456
+2019-09-03 14:44:51,578 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-09-03 14:44:52,926 - framework.base_page - INFO - https://staging.zcygov.cn/seller/vaccine-orders 地址正常打开
+2019-09-03 14:44:54,209 - framework.base_page - INFO - 点击元素成功div.order-form-list-body > table > tbody > tr:nth-child(1)  > td:nth-child(7) > a:nth-child(3)
+2019-09-03 14:44:54,319 - framework.base_page - INFO - 点击元素成功selectric-js-all-select-warehouse
+2019-09-03 14:44:54,454 - framework.base_page - INFO - 点击元素成功//li[contains(text(),"默认仓库")]
+2019-09-03 14:44:54,514 - framework.base_page - INFO - 清除文本框内容成功js-shipmentNo
+2019-09-03 14:44:54,610 - framework.base_page - INFO - 输入的内容：12222221
+2019-09-03 14:44:54,721 - framework.base_page - INFO - 点击元素成功//*[@type="checkbox"]
+2019-09-03 14:44:54,789 - framework.base_page - INFO - 点击元素成功//*[contains(text(),"添加批号")]
+2019-09-03 14:45:04,823 - framework.base_page - ERROR - 查找元素超时:select2-batchNumber-zu-container
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\Zcy_Vaccine\framework\base_page.py", line 88, in find_element
+    EC.visibility_of(self.driver.find_element_by_id(value)))
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 360, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"id","selector":"select2-batchNumber-zu-container"}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+2019-09-03 14:45:04,835 - framework.myunit - INFO - ************************test case run completed************************
+2019-09-03 14:45:06,694 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-09-03 14:45:06,759 - framework.base_page - INFO - 清除文本框内容成功username
+2019-09-03 14:45:06,916 - framework.base_page - INFO - 输入的内容：13777466979
+2019-09-03 14:45:06,976 - framework.base_page - INFO - 清除文本框内容成功password
+2019-09-03 14:45:07,069 - framework.base_page - INFO - 输入的内容：test123456

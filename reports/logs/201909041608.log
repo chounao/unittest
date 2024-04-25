@@ -1,0 +1,29 @@
+2019-09-04 16:08:11,524 - framework.testreport - INFO - successed to generate test report [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\testReport\report2019-09-04 16_08_11.html]
+2019-09-04 16:08:14,116 - framework.driver - INFO - found the chrome driver [<selenium.webdriver.chrome.webdriver.WebDriver (session="8849f08a6db6f1a49e96e2e25c6cb428")>] successed !
+2019-09-04 16:08:15,239 - framework.myunit - INFO - opened the browser successed!
+2019-09-04 16:08:17,056 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-09-04 16:08:17,119 - framework.base_page - INFO - 清除文本框内容成功username
+2019-09-04 16:08:17,222 - framework.base_page - INFO - 输入的内容：13777466979
+2019-09-04 16:08:17,282 - framework.base_page - INFO - 清除文本框内容成功password
+2019-09-04 16:08:17,377 - framework.base_page - INFO - 输入的内容：test123456
+2019-09-04 16:08:21,445 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-09-04 16:08:21,445 - framework.myunit - INFO - ************************starting run test cases************************
+2019-09-04 16:08:22,148 - framework.base_page - INFO - https://cart-staging.zcygov.cn/ 地址正常打开
+2019-09-04 16:08:25,336 - framework.base_page - INFO - 点击元素成功//div[@class="float-bar-action-del"]/a[text()="删除"]
+2019-09-04 16:08:28,413 - pageobjects.order_page - INFO - 删除商品成功
+2019-09-04 16:08:29,125 - framework.base_page - INFO - https://vaccine-staging.zcygov.cn/items/175600205?searchType=1&type=vaccine&utm=a0004.2ef5001f.0.0.33d8ffd0ca0411e9af8ed36431cbf75c 地址正常打开
+2019-09-04 16:08:29,855 - framework.base_page - INFO - 点击元素成功//*[contains(text(),"加入购物车")]
+2019-09-04 16:08:31,204 - framework.base_page - INFO - 点击元素成功//*[contains(text(),"查看购物车")]
+2019-09-04 16:08:48,195 - framework.base_page - INFO - 点击元素成功select2-selection__placeholder
+2019-09-04 16:08:48,279 - framework.base_page - INFO - 点击元素成功//li[text()="席胜军"]
+2019-09-04 16:08:48,391 - framework.base_page - INFO - 点击元素成功//button[text()="提交"]
+2019-09-04 16:08:48,851 - framework.base_page - INFO - 点击元素成功submit
+2019-09-04 16:08:50,552 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-04 16:08:50,594 - framework.base_page - INFO - 获取元素内容: 部门审核
+2019-09-04 16:08:50,890 - framework.base_page - INFO - 截图 [test_33306_fail.png] 成功保存在 [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\screenshots\fail]
+2019-09-04 16:08:50,890 - test_33306 - INFO - 运行失败：预购单提交失败
+2019-09-04 16:08:50,904 - framework.myunit - INFO - ************************test case run completed************************
+2019-09-04 16:08:53,147 - framework.myunit - INFO - quit the browser success!
+2019-09-04 16:08:53,151 - framework.send_email - INFO - 添加附件
+2019-09-04 16:08:53,210 - framework.send_email - INFO - 连接成功
+2019-09-04 16:08:53,733 - framework.send_email - INFO - 2019-09-04-16_08_53----发送邮件成功

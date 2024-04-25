@@ -1,0 +1,12 @@
+2019-10-23 19:34:05,923 - framework.testreport - INFO - successed to generate test report [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\testReport\report2019-10-23 19_34_05.html]
+2019-10-23 19:34:10,921 - framework.driver - INFO - found the chrome driver [<selenium.webdriver.chrome.webdriver.WebDriver (session="515b0cba289254ac03d266d03eb427c3")>] successed !
+2019-10-23 19:34:12,043 - test_33302 - INFO - 启动浏览器成功
+2019-10-23 19:34:14,833 - pageobjects.login_page - INFO - https://login-os-staging.zcygov.cn/user-login/#/login?utm=web-login-front.75ab4087.0.0.e89afea0f58811e9bea5eb93b5a429c0 打开登录地址成功
+2019-10-23 19:34:14,834 - test_33302 - INFO - ************************starting run test cases************************
+2019-10-23 19:34:14,899 - framework.base_page - INFO - 清除文本框内容成功username
+2019-10-23 19:34:15,041 - framework.base_page - INFO - 输入的内容：15088888888
+2019-10-23 19:34:15,102 - framework.base_page - INFO - 清除文本框内容成功password
+2019-10-23 19:34:15,217 - framework.base_page - INFO - 输入的内容：test123456
+2019-10-23 19:34:21,289 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-10-23 19:34:25,937 - framework.base_page - INFO - http://sw-staging.zcygov.cn/service-platform/#/service/window/publish 地址正常打开
+2019-10-23 19:34:34,006 - framework.base_page - INFO - 关闭浏览器

@@ -1,0 +1,20 @@
+2019-08-29 13:44:18,512 - framework.testreport - INFO - successed to generate test report [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\testReport\report2019-08-29 13_44_18.html]
+2019-08-29 13:44:21,008 - framework.driver - INFO - found the chrome driver [<selenium.webdriver.chrome.webdriver.WebDriver (session="cdf3df9a76039e610d53397208076736")>] successed !
+2019-08-29 13:44:22,131 - framework.myunit - INFO - opened the browser successed!
+2019-08-29 13:44:24,420 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-08-29 13:44:24,487 - framework.base_page - INFO - 清除文本框内容成功username
+2019-08-29 13:44:24,618 - framework.base_page - INFO - 输入的内容：13777466979
+2019-08-29 13:44:24,677 - framework.base_page - INFO - 清除文本框内容成功password
+2019-08-29 13:44:24,775 - framework.base_page - INFO - 输入的内容：test123456
+2019-08-29 13:44:28,859 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-08-29 13:44:28,860 - framework.myunit - INFO - ************************starting run test cases************************
+2019-08-29 13:44:29,761 - framework.base_page - INFO - https://cart-staging.zcygov.cn/ 地址正常打开
+2019-08-29 13:44:32,928 - framework.base_page - INFO - 点击元素成功//div[@class="float-bar-action-del"]/a[text()="删除"]
+2019-08-29 13:44:36,002 - pageobjects.order_page - INFO - 删除商品成功
+2019-08-29 13:44:37,429 - framework.base_page - INFO - https://vaccine-staging.zcygov.cn/items/175600205?searchType=1&type=vaccine&utm=a0004.2ef5001f.0.0.33d8ffd0ca0411e9af8ed36431cbf75c 地址正常打开
+2019-08-29 13:44:42,550 - framework.base_page - INFO - 点击元素成功//*[contains(text(),"加入购物车")]
+2019-08-29 13:44:43,986 - framework.base_page - INFO - 点击元素成功//*[contains(text(),"查看购物车")]
+2019-08-29 13:44:51,262 - framework.base_page - INFO - 截图 [test_33304_pass.png] 成功保存在 [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\screenshots\pass]
+2019-08-29 13:44:51,262 - test_33304 - INFO - 加入购物车成功
+2019-08-29 13:44:51,278 - framework.myunit - INFO - ************************test case run completed************************
+2019-08-29 13:44:53,457 - framework.myunit - INFO - quit the browser success!

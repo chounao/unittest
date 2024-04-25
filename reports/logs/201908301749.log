@@ -1,0 +1,26 @@
+2019-08-30 17:49:35,095 - framework.testreport - INFO - successed to generate test report [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\testReport\report2019-08-30 17_49_35.html]
+2019-08-30 17:49:37,812 - framework.driver - INFO - found the chrome driver [<selenium.webdriver.chrome.webdriver.WebDriver (session="1a604036e4ff4a847cecc55ee3af282c")>] successed !
+2019-08-30 17:49:38,949 - framework.myunit - INFO - opened the browser successed!
+2019-08-30 17:49:41,336 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-08-30 17:49:41,417 - framework.base_page - INFO - 清除文本框内容成功username
+2019-08-30 17:49:41,591 - framework.base_page - INFO - 输入的内容：13777466979
+2019-08-30 17:49:41,682 - framework.base_page - INFO - 清除文本框内容成功password
+2019-08-30 17:49:41,832 - framework.base_page - INFO - 输入的内容：test123456
+2019-08-30 17:49:46,457 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-08-30 17:49:46,457 - framework.myunit - INFO - ************************starting run test cases************************
+2019-08-30 17:49:53,484 - framework.base_page - INFO - https://staging.zcygov.cn/buyer/vaccine-orders 地址正常打开
+2019-08-30 17:49:53,592 - framework.base_page - INFO - 点击元素成功div.order-form-list-body > table > tbody > tr:nth-child(1) > td:nth-child(8)> a:nth-child(1)
+2019-08-30 17:49:53,661 - framework.base_page - INFO - 清除文本框内容成功js-cancel-reason
+2019-08-30 17:49:53,745 - framework.base_page - INFO - 输入的内容：测试环境取消订单
+2019-08-30 17:49:53,837 - framework.base_page - INFO - 点击元素成功//button[text()="确定"]
+2019-08-30 17:49:53,889 - framework.base_page - INFO - 获取元素内容: 待供应商接单
+2019-08-30 17:49:53,907 - framework.myunit - INFO - ************************test case run completed************************
+2019-08-30 17:49:56,297 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-08-30 17:49:56,377 - framework.base_page - INFO - 清除文本框内容成功username
+2019-08-30 17:49:56,541 - framework.base_page - INFO - 输入的内容：13777466979
+2019-08-30 17:49:56,631 - framework.base_page - INFO - 清除文本框内容成功password
+2019-08-30 17:49:56,761 - framework.base_page - INFO - 输入的内容：test123456
+2019-08-30 17:49:58,240 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-08-30 17:49:58,240 - framework.myunit - INFO - ************************starting run test cases************************
+2019-08-30 17:50:00,069 - framework.base_page - INFO - https://staging.zcygov.cn/buyer/vaccine-orders 地址正常打开
+2019-08-30 17:50:02,880 - framework.base_page - INFO - 点击元素成功div.order-form-list-body > table > tbody > tr:nth-child(1) > td:nth-child(8)> a:nth-child(1)

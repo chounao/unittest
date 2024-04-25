@@ -1,0 +1,51 @@
+2019-09-03 15:39:19,622 - framework.testreport - INFO - successed to generate test report [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\testReport\report2019-09-03 15_39_19.html]
+2019-09-03 15:39:22,192 - framework.driver - INFO - found the chrome driver [<selenium.webdriver.chrome.webdriver.WebDriver (session="ccd4d95c7f7acea860f3a2a96c220215")>] successed !
+2019-09-03 15:39:23,320 - framework.myunit - INFO - opened the browser successed!
+2019-09-03 15:39:25,891 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-09-03 15:39:25,953 - framework.base_page - INFO - 清除文本框内容成功username
+2019-09-03 15:39:26,055 - framework.base_page - INFO - 输入的内容：13777466979
+2019-09-03 15:39:26,112 - framework.base_page - INFO - 清除文本框内容成功password
+2019-09-03 15:39:26,217 - framework.base_page - INFO - 输入的内容：test123456
+2019-09-03 15:39:30,061 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-09-03 15:39:30,061 - framework.myunit - INFO - ************************starting run test cases************************
+2019-09-03 15:39:37,309 - framework.base_page - INFO - https://staging.zcygov.cn/buyer/vaccine-orders 地址正常打开
+2019-09-03 15:39:37,380 - framework.base_page - INFO - 点击元素成功header-right-user-avatar
+2019-09-03 15:39:47,622 - framework.base_page - ERROR - 查找元素超时:logout
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\Zcy_Vaccine\framework\base_page.py", line 91, in find_element
+    EC.visibility_of(self.driver.find_element_by_name(value)))
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-09-03 15:39:47,654 - framework.myunit - INFO - ************************test case run completed************************
+2019-09-03 15:39:49,767 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-09-03 15:39:49,826 - framework.base_page - INFO - 清除文本框内容成功username
+2019-09-03 15:39:49,986 - framework.base_page - INFO - 输入的内容：13777466979
+2019-09-03 15:39:50,052 - framework.base_page - INFO - 清除文本框内容成功password
+2019-09-03 15:39:50,149 - framework.base_page - INFO - 输入的内容：test123456
+2019-09-03 15:39:51,551 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-09-03 15:39:51,551 - framework.myunit - INFO - ************************starting run test cases************************
+2019-09-03 15:39:53,202 - framework.base_page - INFO - https://staging.zcygov.cn/buyer/vaccine-orders 地址正常打开
+2019-09-03 15:39:53,273 - framework.base_page - INFO - 点击元素成功header-right-user-avatar
+2019-09-03 15:39:54,678 - framework.base_page - INFO - 点击元素成功logout
+2019-09-03 15:39:59,736 - framework.base_page - INFO - 清除文本框内容成功username
+2019-09-03 15:39:59,837 - framework.base_page - INFO - 输入的内容：SINOVAC
+2019-09-03 15:39:59,892 - framework.base_page - INFO - 清除文本框内容成功password
+2019-09-03 15:39:59,980 - framework.base_page - INFO - 输入的内容：test123456
+2019-09-03 15:40:01,785 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-09-03 15:40:03,055 - framework.base_page - INFO - https://staging.zcygov.cn/seller/vaccine-orders 地址正常打开
+2019-09-03 15:40:04,223 - framework.base_page - INFO - 点击元素成功div.order-form-list-body > table > tbody > tr:nth-child(1)  > td:nth-child(7) > a:nth-child(3)
+2019-09-03 15:40:04,333 - framework.base_page - INFO - 点击元素成功selectric-js-all-select-warehouse
+2019-09-03 15:40:04,429 - framework.base_page - INFO - 点击元素成功//li[contains(text(),"默认仓库")]
+2019-09-03 15:40:04,489 - framework.base_page - INFO - 清除文本框内容成功js-shipmentNo
+2019-09-03 15:40:04,586 - framework.base_page - INFO - 输入的内容：12222221
+2019-09-03 15:40:04,715 - framework.base_page - INFO - 点击元素成功//*[@type="checkbox"]
+2019-09-03 15:40:04,789 - framework.base_page - INFO - 点击元素成功//*[contains(text(),"添加批号")]
+2019-09-03 15:40:05,137 - framework.base_page - INFO - 点击元素成功select2-selection__rendered
+2019-09-03 15:40:05,216 - framework.base_page - INFO - 点击元素成功ul.select2-results__options > li:nth-child(2)
+2019-09-03 15:40:05,287 - framework.base_page - INFO - 清除文本框内容成功goodsCount
+2019-09-03 15:40:05,336 - framework.base_page - INFO - 输入的内容：1
+2019-09-03 15:40:05,407 - framework.base_page - INFO - 点击元素成功//button[text()="确定"]
+2019-09-03 15:40:05,484 - framework.myunit - INFO - ************************test case run completed************************
+2019-09-03 15:40:09,005 - framework.myunit - INFO - quit the browser success!

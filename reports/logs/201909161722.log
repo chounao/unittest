@@ -1,0 +1,18 @@
+2019-09-16 17:22:06,407 - framework.testreport - INFO - successed to generate test report [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\testReport\report2019-09-16 17_22_06.html]
+2019-09-16 17:22:08,873 - framework.driver - INFO - found the chrome driver [<selenium.webdriver.chrome.webdriver.WebDriver (session="ef03f1c923698a9a8138035f3778e8a7")>] successed !
+2019-09-16 17:22:08,873 - framework.myunit - INFO - opened the browser successed!
+2019-09-16 17:22:11,269 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-09-16 17:22:11,346 - framework.base_page - INFO - 清除文本框内容成功username
+2019-09-16 17:22:11,469 - framework.base_page - INFO - 输入的内容：13777466979
+2019-09-16 17:22:11,545 - framework.base_page - INFO - 清除文本框内容成功password
+2019-09-16 17:22:11,647 - framework.base_page - INFO - 输入的内容：test123456
+2019-09-16 17:22:16,960 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-09-16 17:22:16,960 - framework.myunit - INFO - ************************starting run test cases************************
+2019-09-16 17:22:18,326 - framework.base_page - INFO - https://vaccine-staging.zcygov.cn/items/175600205?searchType=1&type=vaccine&utm=a0004.2ef5001f.0.0.33d8ffd0ca0411e9af8ed36431cbf75c 地址正常打开
+2019-09-16 17:22:20,432 - framework.base_page - INFO - 点击元素成功//*[contains(text(),"立即下单")]
+2019-09-16 17:22:29,156 - framework.base_page - INFO - 获取当前url https://vaccine-staging.zcygov.cn/buyer/purchase-process?purchaseId=1129000000000181221&tranMode=
+2019-09-16 17:22:29,161 - test_33418 - INFO - https://vaccine-staging.zcygov.cn/buyer/purchase-process?purchaseId=1129000000000181221&tranMode=
+2019-09-16 17:22:29,414 - framework.base_page - INFO - 截图 [test_33418_pass.png] 成功保存在 [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\screenshots\pass]
+2019-09-16 17:22:29,414 - test_33418 - INFO - 运行成功：生成预购单成功
+2019-09-16 17:22:29,446 - framework.myunit - INFO - ************************test case run completed************************
+2019-09-16 17:22:31,698 - framework.myunit - INFO - quit the browser success!

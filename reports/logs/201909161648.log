@@ -1,0 +1,46 @@
+2019-09-16 16:48:21,197 - framework.testreport - INFO - successed to generate test report [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\testReport\report2019-09-16 16_48_21.html]
+2019-09-16 16:48:23,743 - framework.driver - INFO - found the chrome driver [<selenium.webdriver.chrome.webdriver.WebDriver (session="090d89599febe714ee6ee40c6a72651b")>] successed !
+2019-09-16 16:48:23,743 - framework.myunit - INFO - opened the browser successed!
+2019-09-16 16:48:25,785 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-09-16 16:48:25,859 - framework.base_page - INFO - 清除文本框内容成功username
+2019-09-16 16:48:25,964 - framework.base_page - INFO - 输入的内容：13777466979
+2019-09-16 16:48:26,036 - framework.base_page - INFO - 清除文本框内容成功password
+2019-09-16 16:48:26,121 - framework.base_page - INFO - 输入的内容：test123456
+2019-09-16 16:48:30,621 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-09-16 16:48:30,621 - framework.myunit - INFO - ************************starting run test cases************************
+2019-09-16 16:48:33,249 - framework.base_page - INFO - https://vaccine-staging.zcygov.cn/items/175600205?searchType=1&type=vaccine&utm=a0004.2ef5001f.0.0.33d8ffd0ca0411e9af8ed36431cbf75c 地址正常打开
+2019-09-16 16:48:35,369 - framework.base_page - INFO - 点击元素成功//*[contains(text(),"立即下单")]
+2019-09-16 16:48:44,038 - framework.base_page - INFO - 点击元素成功select2-selection__placeholder
+2019-09-16 16:48:44,123 - framework.base_page - INFO - 点击元素成功//li[text()="席胜军"]
+2019-09-16 16:48:44,231 - framework.base_page - INFO - 点击元素成功//button[text()="提交"]
+2019-09-16 16:48:44,621 - framework.base_page - INFO - 点击元素成功submit
+2019-09-16 16:48:46,125 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-16 16:48:47,526 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-16 16:48:47,715 - framework.base_page - INFO - 点击元素成功//button[text()="提交审核意见"]
+2019-09-16 16:48:47,803 - framework.base_page - INFO - 点击元素成功submit
+2019-09-16 16:48:49,029 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-16 16:48:50,428 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-16 16:48:50,630 - framework.base_page - INFO - 点击元素成功//button[text()="提交审核意见"]
+2019-09-16 16:48:50,717 - framework.base_page - INFO - 点击元素成功submit
+2019-09-16 16:48:52,092 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-16 16:48:53,596 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-16 16:48:53,845 - framework.base_page - INFO - 点击元素成功//button[text()="提交审核意见"]
+2019-09-16 16:48:53,936 - framework.base_page - INFO - 点击元素成功submit
+2019-09-16 16:48:55,259 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-16 16:48:56,577 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-16 16:48:56,819 - framework.base_page - INFO - 点击元素成功//button[text()="确定订单"]
+2019-09-16 16:48:59,012 - framework.base_page - INFO - 刷新页面
+2019-09-16 16:48:59,126 - framework.base_page - INFO - 关闭当前标签页.
+2019-09-16 16:49:04,128 - pageobjects.login_page - ERROR - Message: invalid session id
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\Zcy_Vaccine\pageobjects\login_page.py", line 19, in open_login
+    self.driver.get(url)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id
+
+2019-09-16 16:49:06,142 - framework.myunit - INFO - quit the browser success!

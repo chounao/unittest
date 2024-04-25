@@ -1,0 +1,37 @@
+2019-08-28 17:19:17,339 - framework.testreport - INFO - successed to generate test report [C:\Users\admin\PycharmProjects\Vaccine\reports\testReport\report2019-08-28 17_19_17.html]
+2019-08-28 17:19:20,454 - framework.driver - INFO - found the chrome driver [<selenium.webdriver.chrome.webdriver.WebDriver (session="997d97216109ad514b496902fa904a4b")>] successed !
+2019-08-28 17:19:21,589 - framework.myunit - INFO - opened the browser successed!
+2019-08-28 17:19:24,107 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-08-28 17:19:24,212 - framework.base_page - INFO - 清除文本框内容成功username
+2019-08-28 17:19:24,441 - framework.base_page - INFO - 输入的内容：13777466979
+2019-08-28 17:19:24,541 - framework.base_page - INFO - 清除文本框内容成功password
+2019-08-28 17:19:24,701 - framework.base_page - INFO - 输入的内容：test123456
+2019-08-28 17:19:29,068 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-08-28 17:19:29,068 - framework.myunit - INFO - ************************starting run test cases************************
+2019-08-28 17:19:30,153 - framework.base_page - INFO - https://cart-staging.zcygov.cn/ 地址正常打开
+2019-08-28 17:19:45,342 - framework.base_page - ERROR - 查找元素超时://input[@class="ant-checkbox-input"]
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\Vaccine\framework\base_page.py", line 109, in find_element
+    EC.visibility_of(self.driver.find_element_by_xpath(value)))
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-08-28 17:19:45,343 - pageobjects.order_page - ERROR - 未查找到该元素
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\Vaccine\pageobjects\order_page.py", line 35, in clearcart
+    BasePage(self.driver).click(OrderData.allbtn_selectors)
+  File "C:\Users\admin\PycharmProjects\Vaccine\framework\base_page.py", line 218, in click
+    element = self.find_element(selector)
+  File "C:\Users\admin\PycharmProjects\Vaccine\framework\base_page.py", line 116, in find_element
+    raise e
+  File "C:\Users\admin\PycharmProjects\Vaccine\framework\base_page.py", line 109, in find_element
+    EC.visibility_of(self.driver.find_element_by_xpath(value)))
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-08-28 17:19:45,605 - framework.base_page - INFO - 截图 [test_33324_pass.png] 成功保存在 [C:\Users\admin\PycharmProjects\Vaccine\reports\screenshots\pass]
+2019-08-28 17:19:45,606 - test_33324 - INFO - 清空购物车成功
+2019-08-28 17:19:45,623 - framework.myunit - INFO - ************************test case run completed************************
+2019-08-28 17:19:47,921 - framework.myunit - INFO - quit the browser success!

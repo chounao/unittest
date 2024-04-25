@@ -1,0 +1,20 @@
+2019-10-23 19:35:09,054 - framework.testreport - INFO - successed to generate test report [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\testReport\report2019-10-23 19_35_09.html]
+2019-10-23 19:35:14,043 - framework.driver - INFO - found the chrome driver [<selenium.webdriver.chrome.webdriver.WebDriver (session="01a1a545c70ef8faa73f63ee3cbf4db1")>] successed !
+2019-10-23 19:35:15,171 - test_33302 - INFO - 启动浏览器成功
+2019-10-23 19:35:17,473 - pageobjects.login_page - INFO - https://login-os-staging.zcygov.cn/user-login/#/login?utm=web-login-front.75ab4087.0.0.e89afea0f58811e9bea5eb93b5a429c0 打开登录地址成功
+2019-10-23 19:35:17,474 - test_33302 - INFO - ************************starting run test cases************************
+2019-10-23 19:35:17,540 - framework.base_page - INFO - 清除文本框内容成功username
+2019-10-23 19:35:17,667 - framework.base_page - INFO - 输入的内容：15088888888
+2019-10-23 19:35:17,738 - framework.base_page - INFO - 清除文本框内容成功password
+2019-10-23 19:35:17,849 - framework.base_page - INFO - 输入的内容：test123456
+2019-10-23 19:35:21,801 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-10-23 19:35:26,658 - framework.base_page - INFO - http://sw-staging.zcygov.cn/service-platform/#/service/window/publish 地址正常打开
+2019-10-23 19:35:36,870 - framework.base_page - ERROR - 查找元素超时:div.ant-upload.ant-upload-select.ant-upload-select-picture-card > span > input[type=file]
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\Zcy_Vaccine\framework\base_page.py", line 111, in find_element
+    EC.visibility_of(self.driver.find_element_by_css_selector(value)))
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-10-23 19:35:45,219 - framework.base_page - INFO - 关闭浏览器

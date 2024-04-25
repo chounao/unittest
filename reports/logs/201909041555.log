@@ -1,0 +1,45 @@
+2019-09-04 15:55:29,847 - framework.testreport - INFO - successed to generate test report [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\testReport\report2019-09-04 15_55_29.html]
+2019-09-04 15:55:32,387 - framework.driver - INFO - found the chrome driver [<selenium.webdriver.chrome.webdriver.WebDriver (session="020cbe6d1dfac783bb98d627f5dc2e3f")>] successed !
+2019-09-04 15:55:33,519 - framework.myunit - INFO - opened the browser successed!
+2019-09-04 15:55:36,097 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-09-04 15:55:36,174 - framework.base_page - INFO - 清除文本框内容成功username
+2019-09-04 15:55:36,298 - framework.base_page - INFO - 输入的内容：13777466979
+2019-09-04 15:55:36,357 - framework.base_page - INFO - 清除文本框内容成功password
+2019-09-04 15:55:36,448 - framework.base_page - INFO - 输入的内容：test123456
+2019-09-04 15:55:40,649 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-09-04 15:55:40,649 - framework.myunit - INFO - ************************starting run test cases************************
+2019-09-04 15:55:41,512 - framework.base_page - INFO - https://cart-staging.zcygov.cn/ 地址正常打开
+2019-09-04 15:55:47,529 - pageobjects.order_page - ERROR - 未找到全选按钮
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\Zcy_Vaccine\pageobjects\order_page.py", line 35, in clearcart
+    self.driver.find_element_by_xpath('//input[@class="ant-checkbox-input"]').click()
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@class="ant-checkbox-input"]"}
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+2019-09-04 15:55:48,204 - framework.base_page - INFO - https://vaccine-staging.zcygov.cn/items/175600205?searchType=1&type=vaccine&utm=a0004.2ef5001f.0.0.33d8ffd0ca0411e9af8ed36431cbf75c 地址正常打开
+2019-09-04 15:55:49,150 - framework.base_page - INFO - 点击元素成功//*[contains(text(),"加入购物车")]
+2019-09-04 15:55:50,426 - framework.base_page - INFO - 点击元素成功//*[contains(text(),"查看购物车")]
+2019-09-04 15:56:08,249 - framework.base_page - INFO - 点击元素成功select2-selection__placeholder
+2019-09-04 15:56:08,332 - framework.base_page - INFO - 点击元素成功//li[text()="席胜军"]
+2019-09-04 15:56:08,446 - framework.base_page - INFO - 点击元素成功//button[text()="提交"]
+2019-09-04 15:56:08,932 - framework.base_page - INFO - 点击元素成功submit
+2019-09-04 15:56:10,708 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-04 15:56:10,763 - framework.base_page - INFO - 获取元素内容: 部门审核
+2019-09-04 15:56:10,780 - framework.myunit - INFO - ************************test case run completed************************
+2019-09-04 15:56:12,563 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-09-04 15:56:12,631 - framework.base_page - INFO - 清除文本框内容成功username
+2019-09-04 15:56:12,742 - framework.base_page - INFO - 输入的内容：13777466979
+2019-09-04 15:56:12,799 - framework.base_page - INFO - 清除文本框内容成功password
+2019-09-04 15:56:12,894 - framework.base_page - INFO - 输入的内容：test123456
+2019-09-04 15:56:14,403 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-09-04 15:56:14,403 - framework.myunit - INFO - ************************starting run test cases************************
+2019-09-04 15:56:14,963 - framework.base_page - INFO - https://cart-staging.zcygov.cn/ 地址正常打开

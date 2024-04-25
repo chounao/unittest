@@ -1,0 +1,47 @@
+2019-09-03 11:46:40,041 - framework.testreport - INFO - successed to generate test report [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\testReport\report2019-09-03 11_46_40.html]
+2019-09-03 11:46:42,605 - framework.driver - INFO - found the chrome driver [<selenium.webdriver.chrome.webdriver.WebDriver (session="af037624896a4097d1daf62523e62438")>] successed !
+2019-09-03 11:46:43,741 - framework.myunit - INFO - opened the browser successed!
+2019-09-03 11:46:45,728 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-09-03 11:46:45,796 - framework.base_page - INFO - 清除文本框内容成功username
+2019-09-03 11:46:45,928 - framework.base_page - INFO - 输入的内容：13777466979
+2019-09-03 11:46:46,001 - framework.base_page - INFO - 清除文本框内容成功password
+2019-09-03 11:46:46,093 - framework.base_page - INFO - 输入的内容：test123456
+2019-09-03 11:46:50,397 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-09-03 11:46:50,398 - framework.myunit - INFO - ************************starting run test cases************************
+2019-09-03 11:46:52,226 - framework.base_page - INFO - https://vaccine-staging.zcygov.cn/items/175600205?searchType=1&type=vaccine&utm=a0004.2ef5001f.0.0.33d8ffd0ca0411e9af8ed36431cbf75c 地址正常打开
+2019-09-03 11:46:54,325 - framework.base_page - INFO - 点击元素成功//*[contains(text(),"立即下单")]
+2019-09-03 11:47:04,163 - framework.base_page - INFO - 点击元素成功select2-selection__placeholder
+2019-09-03 11:47:04,237 - framework.base_page - INFO - 点击元素成功//li[text()="席胜军"]
+2019-09-03 11:47:04,340 - framework.base_page - INFO - 点击元素成功//button[text()="提交"]
+2019-09-03 11:47:04,723 - framework.base_page - INFO - 点击元素成功submit
+2019-09-03 11:47:06,971 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-03 11:47:08,835 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-03 11:47:08,983 - framework.base_page - INFO - 点击元素成功//button[text()="提交审核意见"]
+2019-09-03 11:47:09,054 - framework.base_page - INFO - 点击元素成功submit
+2019-09-03 11:47:10,389 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-03 11:47:11,569 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-03 11:47:11,679 - framework.base_page - INFO - 点击元素成功//button[text()="提交审核意见"]
+2019-09-03 11:47:11,754 - framework.base_page - INFO - 点击元素成功submit
+2019-09-03 11:47:13,187 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-03 11:47:14,704 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-03 11:47:14,813 - framework.base_page - INFO - 点击元素成功//button[text()="提交审核意见"]
+2019-09-03 11:47:14,889 - framework.base_page - INFO - 点击元素成功submit
+2019-09-03 11:47:16,216 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-03 11:47:17,224 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-03 11:47:17,338 - framework.base_page - INFO - 点击元素成功//button[text()="确定订单"]
+2019-09-03 11:47:19,363 - framework.base_page - INFO - 刷新页面
+2019-09-03 11:47:20,365 - framework.base_page - INFO - 点击元素成功header-right-user-avatar
+2019-09-03 11:47:22,214 - framework.base_page - INFO - 点击元素成功logout
+2019-09-03 11:47:27,272 - framework.base_page - INFO - 清除文本框内容成功username
+2019-09-03 11:47:27,372 - framework.base_page - INFO - 输入的内容：SINOVAC
+2019-09-03 11:47:27,426 - framework.base_page - INFO - 清除文本框内容成功password
+2019-09-03 11:47:27,513 - framework.base_page - INFO - 输入的内容：test123456
+2019-09-03 11:47:30,423 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-09-03 11:47:32,474 - framework.base_page - INFO - https://staging.zcygov.cn/seller/vaccine-orders 地址正常打开
+2019-09-03 11:47:32,545 - framework.base_page - INFO - 点击元素成功div.order-form-list-body > table > tbody > tr:nth-child(1)  > td:nth-child(7) > a
+2019-09-03 11:47:32,873 - framework.base_page - INFO - 点击元素成功//button[text()="确认接单"]
+2019-09-03 11:47:32,889 - framework.base_page - INFO - 刷新页面
+2019-09-03 11:47:34,681 - framework.base_page - INFO - 获取元素内容: 待发货
+2019-09-03 11:47:34,975 - framework.base_page - INFO - 截图 [test_33313_pass.png] 成功保存在 [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\screenshots\pass]
+2019-09-03 11:47:34,990 - framework.myunit - INFO - ************************test case run completed************************
+2019-09-03 11:47:37,254 - framework.myunit - INFO - quit the browser success!

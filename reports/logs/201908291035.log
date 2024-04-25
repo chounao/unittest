@@ -1,0 +1,62 @@
+2019-08-29 10:35:20,395 - framework.testreport - INFO - successed to generate test report [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\testReport\report2019-08-29 10_35_20.html]
+2019-08-29 10:35:22,910 - framework.driver - INFO - found the chrome driver [<selenium.webdriver.chrome.webdriver.WebDriver (session="55f7b8c701dd3fd0042b0a6b9d0adb35")>] successed !
+2019-08-29 10:35:24,046 - framework.myunit - INFO - opened the browser successed!
+2019-08-29 10:35:35,659 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-08-29 10:35:35,727 - framework.base_page - INFO - 清除文本框内容成功username
+2019-08-29 10:35:35,839 - framework.base_page - INFO - 输入的内容：13777466979
+2019-08-29 10:35:35,898 - framework.base_page - INFO - 清除文本框内容成功password
+2019-08-29 10:35:35,985 - framework.base_page - INFO - 输入的内容：test123456
+2019-08-29 10:35:40,389 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-08-29 10:35:40,389 - framework.myunit - INFO - ************************starting run test cases************************
+2019-08-29 10:35:41,729 - framework.base_page - INFO - https://cart-staging.zcygov.cn/ 地址正常打开
+2019-08-29 10:35:44,889 - framework.base_page - INFO - 点击元素成功float-bar-action-del
+2019-08-29 10:35:47,920 - framework.base_page - ERROR - 查找元素超时://button[(text()="确定"]
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\Zcy_Vaccine\framework\base_page.py", line 109, in find_element
+    EC.visibility_of(self.driver.find_element_by_xpath(value)))
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSelectorException: Message: invalid selector: Unable to locate an element with the xpath expression //button[(text()="确定"] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[(text()="确定"]' is not a valid XPath expression.
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+2019-08-29 10:35:47,921 - pageobjects.order_page - INFO - 删除商品失败
+2019-08-29 10:35:48,168 - framework.base_page - INFO - 截图 [test_33324_fail.png] 成功保存在 [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\screenshots\fail]
+2019-08-29 10:35:48,187 - framework.myunit - INFO - ************************test case run completed************************
+2019-08-29 10:35:49,269 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-08-29 10:35:49,328 - framework.base_page - INFO - 清除文本框内容成功username
+2019-08-29 10:35:49,425 - framework.base_page - INFO - 输入的内容：13777466979
+2019-08-29 10:35:49,486 - framework.base_page - INFO - 清除文本框内容成功password
+2019-08-29 10:35:49,575 - framework.base_page - INFO - 输入的内容：test123456
+2019-08-29 10:35:51,141 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-08-29 10:35:51,141 - framework.myunit - INFO - ************************starting run test cases************************
+2019-08-29 10:35:51,512 - framework.base_page - INFO - https://cart-staging.zcygov.cn/ 地址正常打开
+2019-08-29 10:35:54,682 - framework.base_page - INFO - 点击元素成功float-bar-action-del
+2019-08-29 10:35:57,693 - framework.base_page - ERROR - 查找元素超时://button[(text()="确定"]
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\Zcy_Vaccine\framework\base_page.py", line 109, in find_element
+    EC.visibility_of(self.driver.find_element_by_xpath(value)))
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSelectorException: Message: invalid selector: Unable to locate an element with the xpath expression //button[(text()="确定"] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[(text()="确定"]' is not a valid XPath expression.
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64)
+
+2019-08-29 10:35:57,694 - pageobjects.order_page - INFO - 删除商品失败
+2019-08-29 10:35:57,945 - framework.base_page - INFO - 截图 [test_33324_fail.png] 成功保存在 [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\screenshots\fail]
+2019-08-29 10:35:57,958 - framework.myunit - INFO - ************************test case run completed************************
+2019-08-29 10:36:00,839 - framework.myunit - INFO - quit the browser success!

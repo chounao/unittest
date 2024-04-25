@@ -1,0 +1,22 @@
+2019-08-29 16:36:58,288 - framework.testreport - INFO - successed to generate test report [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\testReport\report2019-08-29 16_36_58.html]
+2019-08-29 16:37:01,038 - framework.driver - INFO - found the chrome driver [<selenium.webdriver.chrome.webdriver.WebDriver (session="185b880047418f83972aac886b2e7478")>] successed !
+2019-08-29 16:37:02,159 - framework.myunit - INFO - opened the browser successed!
+2019-08-29 16:37:04,500 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-08-29 16:37:04,562 - framework.base_page - INFO - 清除文本框内容成功username
+2019-08-29 16:37:04,667 - framework.base_page - INFO - 输入的内容：13777466979
+2019-08-29 16:37:04,730 - framework.base_page - INFO - 清除文本框内容成功password
+2019-08-29 16:37:04,823 - framework.base_page - INFO - 输入的内容：test123456
+2019-08-29 16:37:09,380 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-08-29 16:37:09,380 - framework.myunit - INFO - ************************starting run test cases************************
+2019-08-29 16:37:10,457 - framework.base_page - INFO - https://cart-staging.zcygov.cn/ 地址正常打开
+2019-08-29 16:37:13,683 - framework.base_page - INFO - 点击元素成功//div[@class="float-bar-action-del"]/a[text()="删除"]
+2019-08-29 16:37:19,721 - pageobjects.order_page - INFO - 删除商品失败
+2019-08-29 16:37:20,827 - framework.base_page - INFO - https://vaccine-staging.zcygov.cn/items/175600205?searchType=1&type=vaccine&utm=a0004.2ef5001f.0.0.33d8ffd0ca0411e9af8ed36431cbf75c 地址正常打开
+2019-08-29 16:37:23,954 - framework.base_page - INFO - 点击元素成功//*[contains(text(),"加入购物车")]
+2019-08-29 16:37:25,297 - framework.base_page - INFO - 点击元素成功//*[contains(text(),"查看购物车")]
+2019-08-29 16:37:45,088 - framework.base_page - INFO - 获取当前url https://staging.zcygov.cn/buyer/purchase-process?purchaseId=1129000000000180603
+2019-08-29 16:37:45,093 - test_33305 - INFO - https://staging.zcygov.cn/buyer/purchase-process?purchaseId=1129000000000180603
+2019-08-29 16:37:45,399 - framework.base_page - INFO - 截图 [test_33305_pass.png] 成功保存在 [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\screenshots\pass]
+2019-08-29 16:37:45,399 - test_33305 - INFO - 生成订购单草稿成功
+2019-08-29 16:37:45,419 - framework.myunit - INFO - ************************test case run completed************************
+2019-08-29 16:37:47,797 - framework.myunit - INFO - quit the browser success!

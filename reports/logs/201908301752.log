@@ -1,0 +1,3 @@
+2019-08-30 17:52:50,924 - framework.testreport - INFO - successed to generate test report [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\testReport\report2019-08-30 17_52_50.html]
+2019-08-30 17:52:53,596 - framework.driver - INFO - found the chrome driver [<selenium.webdriver.chrome.webdriver.WebDriver (session="6d513bd1cb94b011d9f5719727a046cf")>] successed !
+2019-08-30 17:52:54,735 - framework.myunit - INFO - opened the browser successed!

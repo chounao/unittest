@@ -1,0 +1,8 @@
+2019-09-04 12:46:56,827 - framework.testreport - INFO - successed to generate test report [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\testReport\report2019-09-04 12_46_56.html]
+2019-09-04 12:46:59,764 - framework.driver - INFO - found the chrome driver [<selenium.webdriver.chrome.webdriver.WebDriver (session="4a72dc7308adb7e1582d90dfaa663cb4")>] successed !
+2019-09-04 12:47:00,892 - framework.myunit - INFO - opened the browser successed!
+2019-09-04 12:47:08,268 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-09-04 12:47:08,339 - framework.base_page - INFO - 清除文本框内容成功username
+2019-09-04 12:47:08,491 - framework.base_page - INFO - 输入的内容：13777466979
+2019-09-04 12:47:08,555 - framework.base_page - INFO - 清除文本框内容成功password
+2019-09-04 12:47:08,662 - framework.base_page - INFO - 输入的内容：test123456

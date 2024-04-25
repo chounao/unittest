@@ -1,0 +1,126 @@
+2019-09-16 17:08:11,499 - framework.testreport - INFO - successed to generate test report [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\testReport\report2019-09-16 17_08_11.html]
+2019-09-16 17:08:13,976 - framework.driver - INFO - found the chrome driver [<selenium.webdriver.chrome.webdriver.WebDriver (session="b60dccb196ea75a2eb132375a0ff85b3")>] successed !
+2019-09-16 17:08:13,976 - framework.myunit - INFO - opened the browser successed!
+2019-09-16 17:08:16,151 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-09-16 17:08:16,220 - framework.base_page - INFO - 清除文本框内容成功username
+2019-09-16 17:08:16,320 - framework.base_page - INFO - 输入的内容：13777466979
+2019-09-16 17:08:16,390 - framework.base_page - INFO - 清除文本框内容成功password
+2019-09-16 17:08:16,484 - framework.base_page - INFO - 输入的内容：test123456
+2019-09-16 17:08:20,522 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-09-16 17:08:20,522 - framework.myunit - INFO - ************************starting run test cases************************
+2019-09-16 17:08:21,745 - framework.base_page - INFO - https://vaccine-staging.zcygov.cn/items/175600205?searchType=1&type=vaccine&utm=a0004.2ef5001f.0.0.33d8ffd0ca0411e9af8ed36431cbf75c 地址正常打开
+2019-09-16 17:08:24,469 - framework.base_page - INFO - 点击元素成功//*[contains(text(),"立即下单")]
+2019-09-16 17:08:37,511 - framework.base_page - ERROR - 查找元素超时:select2-selection__placeholder
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\Zcy_Vaccine\framework\base_page.py", line 99, in find_element
+    EC.visibility_of(self.driver.find_element_by_class_name(value)))
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 564, in find_element_by_class_name
+    return self.find_element(by=By.CLASS_NAME, value=name)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".select2-selection__placeholder"}
+  (Session info: chrome=77.0.3865.75)
+
+2019-09-16 17:08:37,536 - framework.myunit - INFO - ************************test case run completed************************
+2019-09-16 17:08:40,852 - framework.myunit - INFO - quit the browser success!
+2019-09-16 17:08:43,784 - framework.testreport - INFO - successed to generate test report [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\testReport\report2019-09-16 17_08_43.html]
+2019-09-16 17:08:46,247 - framework.driver - INFO - found the chrome driver [<selenium.webdriver.chrome.webdriver.WebDriver (session="22c0e4aeb912145958c40d30b4a8ea67")>] successed !
+2019-09-16 17:08:46,247 - framework.myunit - INFO - opened the browser successed!
+2019-09-16 17:08:48,628 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-09-16 17:08:48,693 - framework.base_page - INFO - 清除文本框内容成功username
+2019-09-16 17:08:48,814 - framework.base_page - INFO - 输入的内容：13777466979
+2019-09-16 17:08:48,890 - framework.base_page - INFO - 清除文本框内容成功password
+2019-09-16 17:08:48,988 - framework.base_page - INFO - 输入的内容：test123456
+2019-09-16 17:08:52,974 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-09-16 17:08:52,974 - framework.myunit - INFO - ************************starting run test cases************************
+2019-09-16 17:08:54,166 - framework.base_page - INFO - https://vaccine-staging.zcygov.cn/items/175600205?searchType=1&type=vaccine&utm=a0004.2ef5001f.0.0.33d8ffd0ca0411e9af8ed36431cbf75c 地址正常打开
+2019-09-16 17:08:56,275 - framework.base_page - INFO - 点击元素成功//*[contains(text(),"立即下单")]
+2019-09-16 17:09:05,584 - framework.base_page - INFO - 点击元素成功select2-selection__placeholder
+2019-09-16 17:09:05,660 - framework.base_page - INFO - 点击元素成功//li[text()="席胜军"]
+2019-09-16 17:09:05,787 - framework.base_page - INFO - 点击元素成功//button[text()="提交"]
+2019-09-16 17:09:07,963 - framework.base_page - INFO - 点击元素成功submit
+2019-09-16 17:09:11,202 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-16 17:09:15,371 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-16 17:09:15,532 - framework.base_page - INFO - 点击元素成功//button[text()="提交审核意见"]
+2019-09-16 17:09:15,610 - framework.base_page - INFO - 点击元素成功submit
+2019-09-16 17:09:17,408 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-16 17:09:19,216 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-16 17:09:19,429 - framework.base_page - INFO - 点击元素成功//button[text()="提交审核意见"]
+2019-09-16 17:09:19,514 - framework.base_page - INFO - 点击元素成功submit
+2019-09-16 17:09:20,967 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-16 17:09:22,426 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-16 17:09:22,646 - framework.base_page - INFO - 点击元素成功//button[text()="提交审核意见"]
+2019-09-16 17:09:22,727 - framework.base_page - INFO - 点击元素成功submit
+2019-09-16 17:09:25,484 - framework.base_page - INFO - 点击元素成功//button[@class="btn btn-minor submit close"]
+2019-09-16 17:09:27,500 - framework.base_page - INFO - 点击元素成功div.pur-list-body > table > tbody > tr:nth-child(1) > td:nth-child(7) > a:nth-child(1)
+2019-09-16 17:09:27,749 - framework.base_page - INFO - 点击元素成功//button[text()="确定订单"]
+2019-09-16 17:09:31,731 - framework.base_page - INFO - 刷新页面
+2019-09-16 17:09:33,992 - framework.base_page - INFO - 关闭浏览器
+2019-09-16 17:09:38,001 - pageobjects.login_page - ERROR - HTTPConnectionPool(host='127.0.0.1', port=59928): Max retries exceeded with url: /session/22c0e4aeb912145958c40d30b4a8ea67/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000014DDA566BA8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\urllib3\util\connection.py", line 80, in create_connection
+    raise err
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\urllib3\util\connection.py", line 70, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\urllib3\connectionpool.py", line 354, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "D:\installedFiles\python3.7.1\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "D:\installedFiles\python3.7.1\lib\http\client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "D:\installedFiles\python3.7.1\lib\http\client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "D:\installedFiles\python3.7.1\lib\http\client.py", line 1016, in _send_output
+    self.send(msg)
+  File "D:\installedFiles\python3.7.1\lib\http\client.py", line 956, in send
+    self.connect()
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\urllib3\connection.py", line 181, in connect
+    conn = self._new_conn()
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\urllib3\connection.py", line 168, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000014DDA566BA8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\admin\PycharmProjects\Zcy_Vaccine\pageobjects\login_page.py", line 19, in open_login
+    self.driver.get(url)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 319, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 374, in execute
+    return self._request(command_info[0], url, body=data)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 397, in _request
+    resp = self._conn.request(method, url, body=body, headers=headers)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\urllib3\request.py", line 72, in request
+    **urlopen_kw)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\urllib3\request.py", line 150, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\urllib3\poolmanager.py", line 323, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\urllib3\connectionpool.py", line 667, in urlopen
+    **response_kw)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\urllib3\connectionpool.py", line 667, in urlopen
+    **response_kw)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\urllib3\connectionpool.py", line 667, in urlopen
+    **response_kw)
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\urllib3\connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Users\admin\PycharmProjects\UITest\venv\lib\site-packages\urllib3\util\retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=59928): Max retries exceeded with url: /session/22c0e4aeb912145958c40d30b4a8ea67/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000014DDA566BA8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2019-09-16 17:09:54,046 - framework.myunit - INFO - quit the browser success!

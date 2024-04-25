@@ -1,0 +1,15 @@
+2019-08-30 16:57:38,272 - framework.testreport - INFO - successed to generate test report [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\testReport\report2019-08-30 16_57_38.html]
+2019-08-30 16:57:40,930 - framework.driver - INFO - found the chrome driver [<selenium.webdriver.chrome.webdriver.WebDriver (session="fe5e85dcdae147bccda92376306fe38f")>] successed !
+2019-08-30 16:57:42,062 - framework.myunit - INFO - opened the browser successed!
+2019-08-30 16:57:44,563 - pageobjects.login_page - INFO - https://login-staging.zcygov.cn/login 打开登录地址成功
+2019-08-30 16:57:44,648 - framework.base_page - INFO - 清除文本框内容成功username
+2019-08-30 16:57:44,829 - framework.base_page - INFO - 输入的内容：13777466979
+2019-08-30 16:57:44,895 - framework.base_page - INFO - 清除文本框内容成功password
+2019-08-30 16:57:45,002 - framework.base_page - INFO - 输入的内容：test123456
+2019-08-30 16:57:49,883 - framework.base_page - INFO - 点击元素成功//button[@class='ant-btn login-btn password-login ant-btn-primary']
+2019-08-30 16:57:49,884 - framework.myunit - INFO - ************************starting run test cases************************
+2019-08-30 16:57:57,553 - framework.base_page - INFO - https://staging.zcygov.cn/buyer/vaccine-orders 地址正常打开
+2019-08-30 16:57:57,610 - framework.base_page - INFO - 获取元素内容: 待供应商接单
+2019-08-30 16:57:57,884 - framework.base_page - INFO - 截图 [test_33310_pass.png] 成功保存在 [C:\Users\admin\PycharmProjects\Zcy_Vaccine\reports\screenshots\pass]
+2019-08-30 16:57:57,905 - framework.myunit - INFO - ************************test case run completed************************
+2019-08-30 16:58:00,216 - framework.myunit - INFO - quit the browser success!
